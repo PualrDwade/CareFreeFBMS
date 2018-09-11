@@ -41,12 +41,12 @@ class TicketMsgAdmin(object):
 class HotelMsgAdmin(object):
     # 显示的列
     list_display = ['id', 'name', 'type', 'score', 'hotel_price',
-                    'hotel_content', 'city_id', 'scenic_id', 'img_url', 'supplier_id', 'hotel_link']
+                    'hotel_content', 'scenic_id', 'img_url', 'supplier_id', 'hotel_link']
     # 搜索的字段
     search_fields = ['name', 'type']
     # 过滤
     list_filter = ['id', 'name', 'type', 'score', 'hotel_price',
-                   'city_id', 'scenic_id', 'img_url', 'supplier_id', 'hotel_link']
+                   'scenic_id', 'img_url', 'supplier_id', 'hotel_link']
 
 
 class StrategyMsgAdmin(object):

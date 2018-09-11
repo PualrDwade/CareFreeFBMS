@@ -31,11 +31,11 @@ class SupplierAdmin(object):
 
 class TicketMsgAdmin(object):
     # 显示的列
-    list_display = ['id', 'scenic_id', 'name', 'ticket_content', 'scense_address', 'ticket_price']
+    list_display = ['id', 'scenic_id','city_id','img_url','score', 'ticket_content', 'scense_address', 'ticket_price']
     # 搜索的字段
-    search_fields = ['name']
+    search_fields = ['scenic_id','id']
     # 过滤
-    list_filter = ['id', 'scenic_id', 'name', 'ticket_content', 'ticket_price']
+    list_filter = ['id', 'scenic_id', 'ticket_content', 'ticket_price']
 
 
 class HotelMsgAdmin(object):
@@ -43,7 +43,7 @@ class HotelMsgAdmin(object):
     list_display = ['id', 'name',  'score', 'hotel_price', 'latest_time','sell_num',
                     'hotel_content', 'scenic_id', 'img_url', 'supplier_id', 'hotel_link']
     # 搜索的字段
-    search_fields = ['name', 'type']
+    search_fields = ['name','scenic_id']
     # 过滤
     list_filter = ['id', 'name', 'score', 'hotel_price',
                    'scenic_id', 'img_url', 'supplier_id', 'hotel_link']

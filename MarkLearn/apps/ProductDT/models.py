@@ -1,5 +1,4 @@
 from django.db import models
-from TraverMsg.models import CityMsg
 from TraverMsg.models import ScenicMsg
 from TraverMsg.models import CityMsg
 
@@ -71,20 +70,22 @@ class ProductMsg(models.Model):
 
 class TicketsMsg(models.Model):
     id = models.CharField('门票id', max_length=20, primary_key=True)
-    scenic_id = models.ForeignKey(ScenicMsg, verbose_name='所属景点', on_delete=models.CASCADE, null=True,blank=True)
-    name = models.CharField('门票名称', max_length=20)
-    ticket_content = models.CharField('费用说明', max_length=3000, null=True,blank=True)
+    scenic_id = models.CharField('所属景点',max_length=50,null=True)
+    ticket_content = models.CharField('门票描述', max_length=3000, null=True,blank=True)
     scense_address = models.CharField('场景地址', max_length=100, null=True,blank=True)
     ticket_price = models.CharField('门票价格', max_length=10, null=True,blank=True)
     ticket_link = models.CharField('门票链接', max_length=100)
     supplier_id = models.ForeignKey(Supplier, verbose_name='所属供应商', on_delete=models.CASCADE, null=True,blank=True)
+    score = models.CharField('评分',max_length=10,null=True,blank=True)
+    img_url = models.CharField('图片地址',max_length=100,null=True,blank=True)
+    city_id = models.CharField('所属城市',max_length=100,null=True,blank=True)
 
     class Meta:
         verbose_name = '门票信息'
         verbose_name_plural = verbose_name
 
     def __str__(self):
-        return self.name
+        return self.id
 
 
 """
@@ -98,7 +99,7 @@ class HotelMsg(models.Model):
     score = models.CharField('酒店评分', max_length=10,null=True,blank=True)
     hotel_price = models.CharField('酒店价格', max_length=10)
     hotel_content = models.CharField('酒店简介', max_length=300)
-    scenic_id = models.ForeignKey(ScenicMsg, verbose_name='所属景点', on_delete=models.CASCADE,null=True,blank=True)
+    scenic_id = models.CharField('所属景点',max_length=100,null=True)
     img_url = models.CharField('图片url', max_length=100,null=True,blank=True)
     supplier_id = models.ForeignKey(Supplier, verbose_name='供应商', on_delete=models.CASCADE,null=True,blank=True)
     hotel_link = models.CharField('酒店链接', max_length=100)

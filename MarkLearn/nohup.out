@@ -1117,3 +1117,39 @@ Not Found: /github/700.woff
 [11/Sep/2018 10:49:00] "GET /github/700.woff HTTP/1.0" 404 7198
 Not Found: /github/400i.woff
 [11/Sep/2018 10:49:00] "GET /github/400i.woff HTTP/1.0" 404 7201
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = response.render()
+  File "/usr/local/lib64/python3.6/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/usr/local/lib64/python3.6/site-packages/django/template/response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/usr/local/lib64/python3.6/site-packages/django/template/response.py", line 65, in resolve_template
+    return get_template(template, using=self.using)
+  File "/usr/local/lib64/python3.6/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: xadmin/views/dashboard.html
+[11/Sep/2018 11:14:16] "GET / HTTP/1.0" 500 80789
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = response.render()
+  File "/usr/local/lib64/python3.6/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/usr/local/lib64/python3.6/site-packages/django/template/response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/usr/local/lib64/python3.6/site-packages/django/template/response.py", line 65, in resolve_template
+    return get_template(template, using=self.using)
+  File "/usr/local/lib64/python3.6/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: xadmin/views/dashboard.html
+[11/Sep/2018 11:14:22] "GET / HTTP/1.0" 500 80924

@@ -93,15 +93,8 @@ class TicketsMsg(models.Model):
 
 
 class HotelMsg(models.Model):
-    type_choice = (
-        ('1', '高档酒店'),
-        ('2', '团购'),
-        ('3', '特价酒店'),
-        ('4', '客栈青旅')
-    )
     id = models.CharField('酒店id', max_length=20, primary_key=True)
     name = models.CharField('酒店名字', max_length=50)
-    type = models.CharField('酒店类型', choices=type_choice, default='4', max_length=20)
     score = models.CharField('酒店评分', max_length=10,null=True,blank=True)
     hotel_price = models.CharField('酒店价格', max_length=10)
     hotel_content = models.CharField('酒店简介', max_length=300)
@@ -109,6 +102,8 @@ class HotelMsg(models.Model):
     img_url = models.CharField('图片url', max_length=100,null=True,blank=True)
     supplier_id = models.ForeignKey(Supplier, verbose_name='供应商', on_delete=models.CASCADE,null=True,blank=True)
     hotel_link = models.CharField('酒店链接', max_length=100)
+    sell_num = models.CharField('酒店人气',max_length=50)
+    latest_time = models.CharField('最新情况',max_length=100)
 
     class Meta:
         verbose_name = '酒店信息'

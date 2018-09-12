@@ -2483,3 +2483,492 @@ Quit the server with CONTROL-C.
 [12/Sep/2018 16:08:09] "GET /jsi18n/ HTTP/1.0" 200 7684
 [12/Sep/2018 16:08:28] "GET /ProductDT/ticketsmsg/ HTTP/1.0" 200 152155
 [12/Sep/2018 16:08:28] "GET /jsi18n/ HTTP/1.0" 200 7684
+Performing system checks...
+
+System check identified no issues (0 silenced).
+September 12, 2018 - 15:47:24
+Django version 2.0.7, using settings 'MarkLearn.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function check_errors.<locals>.wrapper at 0x7fc684ed6ea0>
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.6/site-packages/django/utils/autoreload.py", line 225, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib64/python3.6/site-packages/django/core/management/commands/runserver.py", line 120, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib64/python3.6/site-packages/django/core/management/base.py", line 410, in check
+    raise SystemCheckError(msg)
+django.core.management.base.SystemCheckError: SystemCheckError: System check identified some issues:
+
+ERRORS:
+ProductDT.Product_City.product_price: (fields.E120) CharFields must define a 'max_length' attribute.
+
+System check identified 1 issue (0 silenced).
+Performing system checks...
+
+[12/Sep/2018 16:23:43] "GET / HTTP/1.0" 200 83551
+[12/Sep/2018 16:23:43] "GET /jsi18n/ HTTP/1.0" 200 7684
+Not Found: /github/700.woff
+[12/Sep/2018 16:23:43] "GET /github/700.woff HTTP/1.0" 404 7541
+Not Found: /github/400.woff
+[12/Sep/2018 16:23:43] "GET /github/400.woff HTTP/1.0" 404 7541
+Not Found: /github/400i.woff
+[12/Sep/2018 16:23:43] "GET /github/400i.woff HTTP/1.0" 404 7544
+[12/Sep/2018 16:23:46] "GET /ProductDT/product_city/ HTTP/1.0" 200 31944
+[12/Sep/2018 16:23:47] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 16:23:48] "GET /ProductDT/product_senic/ HTTP/1.0" 200 31451
+[12/Sep/2018 16:23:48] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 16:23:49] "GET /ProductDT/strategymsg/ HTTP/1.0" 200 35361
+[12/Sep/2018 16:23:49] "GET /jsi18n/ HTTP/1.0" 200 7684
+Internal Server Error: /ProductDT/hotelmsg/
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.6/site-packages/django/db/models/options.py", line 566, in get_field
+    return self.fields_map[field_name]
+KeyError: 'img_urlhotel_content'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.6/site-packages/django/contrib/admin/utils.py", line 330, in label_for_field
+    field = _get_non_gfk_field(model._meta, name)
+  File "/usr/local/lib64/python3.6/site-packages/django/contrib/admin/utils.py", line 307, in _get_non_gfk_field
+    field = opts.get_field(name)
+  File "/usr/local/lib64/python3.6/site-packages/django/db/models/options.py", line 568, in get_field
+    raise FieldDoesNotExist("%s has no field named '%s'" % (self.object_name, field_name))
+django.core.exceptions.FieldDoesNotExist: HotelMsg has no field named 'img_urlhotel_content'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/sites.py", line 300, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "/usr/local/lib64/python3.6/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/sites.py", line 208, in inner
+    return view(request, *args, **kwargs)
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/base.py", line 282, in view
+    return handler(request, *args, **kwargs)
+  File "/usr/local/lib64/python3.6/site-packages/django/utils/decorators.py", line 62, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/usr/local/lib64/python3.6/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib64/python3.6/site-packages/django/utils/decorators.py", line 58, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/base.py", line 80, in method
+    return filter_chain(filters, len(filters) - 1, _inner_method, *args, **kwargs)
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/base.py", line 49, in filter_chain
+    return func()
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/base.py", line 74, in _inner_method
+    return func(self, *args, **kwargs)
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/list.py", line 405, in get
+    context = self.get_context()
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/base.py", line 80, in method
+    return filter_chain(filters, len(filters) - 1, _inner_method, *args, **kwargs)
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/base.py", line 63, in filter_chain
+    return filter_chain(filters, token - 1, _inner_method, *args, **kwargs)
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/base.py", line 63, in filter_chain
+    return filter_chain(filters, token - 1, _inner_method, *args, **kwargs)
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/base.py", line 63, in filter_chain
+    return filter_chain(filters, token - 1, _inner_method, *args, **kwargs)
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/base.py", line 49, in filter_chain
+    return func()
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/base.py", line 62, in _inner_method
+    return fm(func if fargs[1] == '__' else func(), *args, **kwargs)
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/base.py", line 62, in _inner_method
+    return fm(func if fargs[1] == '__' else func(), *args, **kwargs)
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/base.py", line 62, in _inner_method
+    return fm(func if fargs[1] == '__' else func(), *args, **kwargs)
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/base.py", line 74, in _inner_method
+    return func(self, *args, **kwargs)
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/list.py", line 384, in get_context
+    'result_headers': self.result_headers(),
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/base.py", line 80, in method
+    return filter_chain(filters, len(filters) - 1, _inner_method, *args, **kwargs)
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/base.py", line 49, in filter_chain
+    return func()
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/base.py", line 74, in _inner_method
+    return func(self, *args, **kwargs)
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/list.py", line 524, in result_headers
+    field_name, row) for field_name in self.list_display]
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/list.py", line 524, in <listcomp>
+    field_name, row) for field_name in self.list_display]
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/base.py", line 80, in method
+    return filter_chain(filters, len(filters) - 1, _inner_method, *args, **kwargs)
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/base.py", line 63, in filter_chain
+    return filter_chain(filters, token - 1, _inner_method, *args, **kwargs)
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/base.py", line 49, in filter_chain
+    return func()
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/base.py", line 62, in _inner_method
+    return fm(func if fargs[1] == '__' else func(), *args, **kwargs)
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/base.py", line 74, in _inner_method
+    return func(self, *args, **kwargs)
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/list.py", line 441, in result_header
+    return_attr=True
+  File "/usr/local/lib64/python3.6/site-packages/django/contrib/admin/utils.py", line 351, in label_for_field
+    raise AttributeError(message)
+AttributeError: Unable to lookup 'img_urlhotel_content' on HotelMsg or ProductDThotelmsgAdminListAdminViewModelAdminViewGlobalSettingsCommAdminViewBaseSettingBaseAdminViewBaseAdminObjectViewobject
+[12/Sep/2018 16:23:51] "GET /ProductDT/hotelmsg/ HTTP/1.0" 500 250105
+[12/Sep/2018 16:23:53] "GET /ProductDT/strategymsg/ HTTP/1.0" 200 35361
+[12/Sep/2018 16:23:55] "GET /ProductDT/strategymsg/ HTTP/1.0" 200 35361
+[12/Sep/2018 16:23:56] "GET /jsi18n/ HTTP/1.0" 200 7684
+Internal Server Error: /ProductDT/hotelmsg/
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.6/site-packages/django/db/models/options.py", line 566, in get_field
+    return self.fields_map[field_name]
+KeyError: 'img_urlhotel_content'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.6/site-packages/django/contrib/admin/utils.py", line 330, in label_for_field
+    field = _get_non_gfk_field(model._meta, name)
+  File "/usr/local/lib64/python3.6/site-packages/django/contrib/admin/utils.py", line 307, in _get_non_gfk_field
+    field = opts.get_field(name)
+  File "/usr/local/lib64/python3.6/site-packages/django/db/models/options.py", line 568, in get_field
+    raise FieldDoesNotExist("%s has no field named '%s'" % (self.object_name, field_name))
+django.core.exceptions.FieldDoesNotExist: HotelMsg has no field named 'img_urlhotel_content'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/sites.py", line 300, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "/usr/local/lib64/python3.6/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/sites.py", line 208, in inner
+    return view(request, *args, **kwargs)
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/base.py", line 282, in view
+    return handler(request, *args, **kwargs)
+  File "/usr/local/lib64/python3.6/site-packages/django/utils/decorators.py", line 62, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/usr/local/lib64/python3.6/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib64/python3.6/site-packages/django/utils/decorators.py", line 58, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/base.py", line 80, in method
+    return filter_chain(filters, len(filters) - 1, _inner_method, *args, **kwargs)
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/base.py", line 49, in filter_chain
+    return func()
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/base.py", line 74, in _inner_method
+    return func(self, *args, **kwargs)
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/list.py", line 405, in get
+    context = self.get_context()
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/base.py", line 80, in method
+    return filter_chain(filters, len(filters) - 1, _inner_method, *args, **kwargs)
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/base.py", line 63, in filter_chain
+    return filter_chain(filters, token - 1, _inner_method, *args, **kwargs)
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/base.py", line 63, in filter_chain
+    return filter_chain(filters, token - 1, _inner_method, *args, **kwargs)
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/base.py", line 63, in filter_chain
+    return filter_chain(filters, token - 1, _inner_method, *args, **kwargs)
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/base.py", line 49, in filter_chain
+    return func()
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/base.py", line 62, in _inner_method
+    return fm(func if fargs[1] == '__' else func(), *args, **kwargs)
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/base.py", line 62, in _inner_method
+    return fm(func if fargs[1] == '__' else func(), *args, **kwargs)
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/base.py", line 62, in _inner_method
+    return fm(func if fargs[1] == '__' else func(), *args, **kwargs)
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/base.py", line 74, in _inner_method
+    return func(self, *args, **kwargs)
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/list.py", line 384, in get_context
+    'result_headers': self.result_headers(),
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/base.py", line 80, in method
+    return filter_chain(filters, len(filters) - 1, _inner_method, *args, **kwargs)
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/base.py", line 49, in filter_chain
+    return func()
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/base.py", line 74, in _inner_method
+    return func(self, *args, **kwargs)
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/list.py", line 524, in result_headers
+    field_name, row) for field_name in self.list_display]
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/list.py", line 524, in <listcomp>
+    field_name, row) for field_name in self.list_display]
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/base.py", line 80, in method
+    return filter_chain(filters, len(filters) - 1, _inner_method, *args, **kwargs)
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/base.py", line 63, in filter_chain
+    return filter_chain(filters, token - 1, _inner_method, *args, **kwargs)
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/base.py", line 49, in filter_chain
+    return func()
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/base.py", line 62, in _inner_method
+    return fm(func if fargs[1] == '__' else func(), *args, **kwargs)
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/base.py", line 74, in _inner_method
+    return func(self, *args, **kwargs)
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/list.py", line 441, in result_header
+    return_attr=True
+  File "/usr/local/lib64/python3.6/site-packages/django/contrib/admin/utils.py", line 351, in label_for_field
+    raise AttributeError(message)
+AttributeError: Unable to lookup 'img_urlhotel_content' on HotelMsg or ProductDThotelmsgAdminListAdminViewModelAdminViewGlobalSettingsCommAdminViewBaseSettingBaseAdminViewBaseAdminObjectViewobject
+[12/Sep/2018 16:23:58] "GET /ProductDT/hotelmsg/ HTTP/1.0" 500 250105
+Performing system checks...
+
+System check identified no issues (0 silenced).
+September 12, 2018 - 16:23:12
+Django version 2.0.7, using settings 'MarkLearn.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[12/Sep/2018 16:25:01] "GET /ProductDT/hotelmsg/ HTTP/1.0" 200 142819
+[12/Sep/2018 16:25:02] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 16:25:39] "GET / HTTP/1.0" 200 83551
+[12/Sep/2018 16:25:39] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 16:25:39] "GET / HTTP/1.0" 200 83551
+Not Found: /github/400.woff
+[12/Sep/2018 16:25:39] "GET /github/400.woff HTTP/1.0" 404 7541
+Not Found: /github/700.woff
+[12/Sep/2018 16:25:39] "GET /github/700.woff HTTP/1.0" 404 7541
+Not Found: /github/400i.woff
+[12/Sep/2018 16:25:39] "GET /github/400i.woff HTTP/1.0" 404 7544
+[12/Sep/2018 16:26:05] "GET /TraverAsk/useranswer/ HTTP/1.0" 200 35730
+[12/Sep/2018 16:26:06] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 16:26:10] "GET /TraverAsk/userask/ HTTP/1.0" 200 37464
+[12/Sep/2018 16:26:10] "GET /static/xadmin/vendor/select2/select2.css HTTP/1.0" 304 0
+[12/Sep/2018 16:26:10] "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.0" 304 0
+[12/Sep/2018 16:26:10] "GET /static/xadmin/vendor/selectize/selectize.css HTTP/1.0" 304 0
+[12/Sep/2018 16:26:10] "GET /static/xadmin/vendor/selectize/selectize.bootstrap3.css HTTP/1.0" 304 0
+[12/Sep/2018 16:26:10] "GET /static/xadmin/vendor/select2/select2_locale_zh-hans.js HTTP/1.0" 304 0
+[12/Sep/2018 16:26:10] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 16:26:13] "GET /static/xadmin/js/xadmin.widget.select.js HTTP/1.0" 304 0
+[12/Sep/2018 16:26:16] "GET /Account/userprofile/ HTTP/1.0" 200 42437
+[12/Sep/2018 16:26:16] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 16:26:18] "GET /Account/emailverifyrecord/ HTTP/1.0" 200 36073
+[12/Sep/2018 16:26:18] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 16:26:21] "GET /ProductDT/product_city/ HTTP/1.0" 200 31944
+[12/Sep/2018 16:26:21] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 16:26:22] "GET /ProductDT/product_senic/ HTTP/1.0" 200 31451
+[12/Sep/2018 16:26:22] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 16:26:24] "GET /ProductDT/hotelmsg/ HTTP/1.0" 200 142819
+[12/Sep/2018 16:26:24] "GET /ProductDT/hotelmsg/ HTTP/1.0" 200 142819
+[12/Sep/2018 16:26:24] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 16:26:25] "GET /ProductDT/strategymsg/ HTTP/1.0" 200 35361
+[12/Sep/2018 16:26:25] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 16:26:27] "GET /ProductDT/hotelmsg/ HTTP/1.0" 200 142819
+[12/Sep/2018 16:26:27] "GET /jsi18n/ HTTP/1.0" 200 7684
+Performing system checks...
+
+System check identified no issues (0 silenced).
+September 12, 2018 - 16:25:00
+Django version 2.0.7, using settings 'MarkLearn.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[12/Sep/2018 16:27:29] "GET /ProductDT/hotelmsg/ HTTP/1.0" 200 135500
+[12/Sep/2018 16:27:29] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 16:27:48] "GET /ProductDT/hotelmsg/ HTTP/1.0" 200 135500
+[12/Sep/2018 16:29:57] "GET /ProductDT/strategymsg/ HTTP/1.0" 200 35361
+[12/Sep/2018 16:29:57] "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.0" 304 0
+[12/Sep/2018 16:29:57] "GET /static/xadmin/css/xadmin.main.css HTTP/1.0" 304 0
+[12/Sep/2018 16:29:57] "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.0" 304 0
+[12/Sep/2018 16:29:57] "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.0" 304 0
+[12/Sep/2018 16:29:57] "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.0" 304 0
+[12/Sep/2018 16:29:57] "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.0" 304 0
+[12/Sep/2018 16:29:57] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 16:29:57] "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.0" 304 0
+[12/Sep/2018 16:29:57] "GET /static/xadmin/css/xadmin.form.css HTTP/1.0" 304 0
+[12/Sep/2018 16:29:57] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.0" 304 0
+[12/Sep/2018 16:29:57] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.0" 304 0
+[12/Sep/2018 16:29:57] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.0" 304 0
+[12/Sep/2018 16:29:57] "GET /static/xadmin/js/xadmin.main.js HTTP/1.0" 304 0
+[12/Sep/2018 16:29:57] "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.0" 304 0
+[12/Sep/2018 16:29:57] "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.0" 304 0
+[12/Sep/2018 16:29:57] "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.0" 304 0
+[12/Sep/2018 16:29:57] "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.0" 304 0
+[12/Sep/2018 16:29:57] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.0" 304 0
+[12/Sep/2018 16:29:57] "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.0" 304 0
+[12/Sep/2018 16:29:57] "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.0" 304 0
+[12/Sep/2018 16:29:57] "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.0" 304 0
+[12/Sep/2018 16:30:02] "GET /ProductDT/productmsg/ HTTP/1.0" 200 35091
+[12/Sep/2018 16:30:02] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 16:30:11] "GET /ProductDT/product_city/ HTTP/1.0" 200 31944
+[12/Sep/2018 16:30:11] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 16:30:14] "GET /ProductDT/product_senic/ HTTP/1.0" 200 31451
+[12/Sep/2018 16:30:14] "GET /jsi18n/ HTTP/1.0" 200 7684
+Not Found: /azenv.php
+[12/Sep/2018 16:51:54] "POST /azenv.php?auth=153674231451&a=PSCN&i=2018496032&p=80 HTTP/1.0" 404 7579
+[12/Sep/2018 17:41:01] "GET / HTTP/1.0" 200 4135
+[12/Sep/2018 18:11:51] "GET / HTTP/1.0" 200 4135
+[12/Sep/2018 18:21:48] "GET / HTTP/1.0" 200 4135
+Not Found: /favicon.ico
+[12/Sep/2018 18:21:48] "GET /favicon.ico HTTP/1.0" 404 7529
+[12/Sep/2018 18:36:26] "GET / HTTP/1.0" 200 83551
+[12/Sep/2018 18:36:26] "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.0" 304 0
+[12/Sep/2018 18:36:26] "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.0" 304 0
+[12/Sep/2018 18:36:26] "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.0" 304 0
+[12/Sep/2018 18:36:26] "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.0" 304 0
+[12/Sep/2018 18:36:26] "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.0" 304 0
+[12/Sep/2018 18:36:26] "GET / HTTP/1.0" 200 83551
+[12/Sep/2018 18:36:26] "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.0" 304 0
+[12/Sep/2018 18:36:26] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.0" 304 0
+[12/Sep/2018 18:36:26] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.0" 304 0
+[12/Sep/2018 18:36:26] "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.0" 304 0
+[12/Sep/2018 18:36:26] "GET /static/xadmin/css/xadmin.main.css HTTP/1.0" 304 0
+[12/Sep/2018 18:36:26] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 18:36:26] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.0" 304 0
+[12/Sep/2018 18:36:26] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.0" 304 0
+[12/Sep/2018 18:36:26] "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.0" 304 0
+[12/Sep/2018 18:36:26] "GET /static/xadmin/js/xadmin.main.js HTTP/1.0" 304 0
+[12/Sep/2018 18:36:27] "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.0" 304 0
+[12/Sep/2018 18:36:27] "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.0" 304 0
+[12/Sep/2018 18:36:27] "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.0" 304 0
+Not Found: /github/400.woff
+[12/Sep/2018 18:36:27] "GET /github/400.woff HTTP/1.0" 404 7541
+[12/Sep/2018 18:36:27] "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.0" 304 0
+Not Found: /github/700.woff
+[12/Sep/2018 18:36:27] "GET /github/700.woff HTTP/1.0" 404 7541
+Not Found: /github/400i.woff
+[12/Sep/2018 18:36:27] "GET /github/400i.woff HTTP/1.0" 404 7544
+Not Found: /favicon.ico
+[12/Sep/2018 18:36:28] "GET /favicon.ico HTTP/1.0" 404 7529
+[12/Sep/2018 18:36:30] "GET /ProductDT/hotelmsg/ HTTP/1.0" 200 152943
+[12/Sep/2018 18:36:30] "GET /static/xadmin/css/xadmin.form.css HTTP/1.0" 304 0
+[12/Sep/2018 18:36:30] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 18:36:31] "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.0" 304 0
+[12/Sep/2018 18:36:31] "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.0" 304 0
+[12/Sep/2018 18:36:31] "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.0" 304 0
+[12/Sep/2018 18:36:31] "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.0" 304 0
+[12/Sep/2018 18:36:31] "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.0" 304 0
+[12/Sep/2018 18:36:31] "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.0" 304 0
+[12/Sep/2018 18:39:41] "GET /TraverMsg/travermsg/ HTTP/1.0" 200 35323
+[12/Sep/2018 18:39:42] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 18:39:42] "GET /static/xadmin/vendor/select2/select2.js HTTP/1.0" 304 0
+[12/Sep/2018 18:39:43] "GET /TraverMsg/scenicmsg/ HTTP/1.0" 200 32408
+[12/Sep/2018 18:39:43] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 18:39:44] "GET /TraverMsg/provincemsg/ HTTP/1.0" 200 37681
+[12/Sep/2018 18:39:45] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 18:40:01] "GET /TraverMsg/citymsg/ HTTP/1.0" 200 33107
+[12/Sep/2018 18:40:01] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 18:40:10] "GET /TraverMsg/scenicmsg/ HTTP/1.0" 200 32408
+[12/Sep/2018 18:40:10] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 18:41:02] "GET /ProductDT/hotelmsg/ HTTP/1.0" 200 152943
+[12/Sep/2018 18:41:02] "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.0" 304 0
+[12/Sep/2018 18:41:02] "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.0" 304 0
+[12/Sep/2018 18:41:02] "GET /static/xadmin/css/xadmin.main.css HTTP/1.0" 304 0
+[12/Sep/2018 18:41:02] "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.0" 304 0
+[12/Sep/2018 18:41:02] "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.0" 304 0
+[12/Sep/2018 18:41:02] "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.0" 304 0
+[12/Sep/2018 18:41:02] "GET /static/xadmin/css/xadmin.form.css HTTP/1.0" 304 0
+[12/Sep/2018 18:41:02] "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.0" 304 0
+[12/Sep/2018 18:41:02] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 18:41:02] "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.0" 304 0
+[12/Sep/2018 18:41:03] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.0" 304 0
+[12/Sep/2018 18:41:03] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.0" 304 0
+[12/Sep/2018 18:41:03] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.0" 304 0
+[12/Sep/2018 18:41:03] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.0" 304 0
+[12/Sep/2018 18:41:03] "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.0" 304 0
+[12/Sep/2018 18:41:03] "GET /static/xadmin/js/xadmin.main.js HTTP/1.0" 304 0
+[12/Sep/2018 18:41:03] "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.0" 304 0
+[12/Sep/2018 18:41:03] "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.0" 304 0
+[12/Sep/2018 18:41:03] "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.0" 304 0
+[12/Sep/2018 18:41:03] "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.0" 304 0
+[12/Sep/2018 18:41:03] "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.0" 304 0
+[12/Sep/2018 18:41:03] "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.0" 304 0
+[12/Sep/2018 18:41:03] "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.0" 304 0
+[12/Sep/2018 18:41:10] "GET / HTTP/1.0" 200 4135
+Performing system checks...
+
+System check identified no issues (0 silenced).
+September 12, 2018 - 16:27:27
+Django version 2.0.7, using settings 'MarkLearn.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[12/Sep/2018 18:44:45] "GET /ProductDT/hotelmsg/?o=supplier_id HTTP/1.0" 200 161157
+[12/Sep/2018 18:44:45] "GET /jsi18n/ HTTP/1.0" 200 7684
+Performing system checks...
+
+System check identified no issues (0 silenced).
+September 12, 2018 - 18:44:06
+Django version 2.0.7, using settings 'MarkLearn.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[12/Sep/2018 18:45:25] "GET / HTTP/1.0" 200 83551
+[12/Sep/2018 18:45:25] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 18:45:25] "GET / HTTP/1.0" 200 83551
+Not Found: /github/400.woff
+[12/Sep/2018 18:45:25] "GET /github/400.woff HTTP/1.0" 404 7541
+Not Found: /github/700.woff
+[12/Sep/2018 18:45:25] "GET /github/700.woff HTTP/1.0" 404 7541
+Not Found: /github/400i.woff
+[12/Sep/2018 18:45:25] "GET /github/400i.woff HTTP/1.0" 404 7544
+[12/Sep/2018 18:45:29] "GET /ProductDT/hotelmsg/?o=supplier_id HTTP/1.0" 200 162169
+[12/Sep/2018 18:45:29] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 18:45:29] "GET /ProductDT/hotelmsg/ HTTP/1.0" 200 155111
+[12/Sep/2018 18:45:30] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 18:46:18] "GET /ProductDT/hotelmsg/?p=1 HTTP/1.0" 200 157870
+[12/Sep/2018 18:46:18] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 18:46:36] "GET /ProductDT/hotelmsg/?p=3 HTTP/1.0" 200 154450
+[12/Sep/2018 18:46:37] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 18:48:40] "GET / HTTP/1.0" 200 83551
+[12/Sep/2018 18:48:40] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 18:48:40] "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.0" 304 0
+[12/Sep/2018 18:48:41] "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.0" 304 0
+[12/Sep/2018 18:48:41] "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.0" 304 0
+Not Found: /github/400i.woff
+[12/Sep/2018 18:48:41] "GET /github/400i.woff HTTP/1.0" 404 7544
+[12/Sep/2018 18:48:41] "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.0" 304 0
+Not Found: /github/700.woff
+[12/Sep/2018 18:48:41] "GET /github/700.woff HTTP/1.0" 404 7541
+Not Found: /github/400.woff
+[12/Sep/2018 18:48:41] "GET /github/400.woff HTTP/1.0" 404 7541
+[12/Sep/2018 18:49:09] "GET /ProductDT/ticketsmsg/ HTTP/1.0" 200 153311
+[12/Sep/2018 18:49:09] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 18:49:09] "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.0" 304 0
+[12/Sep/2018 18:49:13] "GET /ProductDT/productmsg/ HTTP/1.0" 200 35091
+[12/Sep/2018 18:49:13] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 18:49:15] "GET /ProductDT/productmsg/add/ HTTP/1.0" 200 27704
+[12/Sep/2018 18:49:15] "GET /static/xadmin/vendor/selectize/selectize.bootstrap3.css HTTP/1.0" 304 0
+[12/Sep/2018 18:49:15] "GET /static/xadmin/vendor/select2/select2.css HTTP/1.0" 304 0
+[12/Sep/2018 18:49:15] "GET /static/xadmin/vendor/selectize/selectize.css HTTP/1.0" 304 0
+[12/Sep/2018 18:49:15] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 18:49:15] "GET /static/xadmin/js/xadmin.plugin.quick-form.js HTTP/1.0" 304 0
+[12/Sep/2018 18:49:15] "GET /static/xadmin/vendor/select2/select2_locale_zh-hans.js HTTP/1.0" 304 0
+[12/Sep/2018 18:49:15] "GET /static/xadmin/js/xadmin.widget.select.js HTTP/1.0" 304 0
+[12/Sep/2018 18:49:15] "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.0" 304 0
+[12/Sep/2018 18:49:15] "GET /static/xadmin/vendor/select2/select2.js HTTP/1.0" 304 0
+[12/Sep/2018 18:50:16] "GET /ProductDT/ticketsmsg/ HTTP/1.0" 200 153311
+[12/Sep/2018 18:50:17] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 18:50:49] "GET /ProductDT/product_senic/ HTTP/1.0" 200 31451
+[12/Sep/2018 18:50:49] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 18:50:53] "GET /ProductDT/product_senic/add/ HTTP/1.0" 200 24495
+[12/Sep/2018 18:50:53] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 18:51:04] "GET /ProductDT/product_city/ HTTP/1.0" 200 31944
+[12/Sep/2018 18:51:05] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 18:51:08] "GET /ProductDT/product_city/add/ HTTP/1.0" 200 24857
+[12/Sep/2018 18:51:08] "GET /jsi18n/ HTTP/1.0" 200 7684
+Performing system checks...
+
+System check identified no issues (0 silenced).
+September 12, 2018 - 18:45:23
+Django version 2.0.7, using settings 'MarkLearn.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[12/Sep/2018 18:52:04] "GET / HTTP/1.0" 200 4135
+Performing system checks...
+
+System check identified no issues (0 silenced).
+September 12, 2018 - 18:51:16
+Django version 2.0.7, using settings 'MarkLearn.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+September 12, 2018 - 18:53:23
+Django version 2.0.7, using settings 'MarkLearn.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+September 12, 2018 - 18:53:26
+Django version 2.0.7, using settings 'MarkLearn.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.

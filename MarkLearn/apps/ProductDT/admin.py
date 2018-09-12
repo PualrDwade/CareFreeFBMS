@@ -61,9 +61,8 @@ class TicketMsgAdmin(object):
 
 class HotelMsgAdmin(object):
     # 显示的列
-    list_display = ['name', 'score', 'hotel_price', 'sell_num', 'img_url'
-                                                                'hotel_content', 'scenic_id', 'supplier_id',
-                    'hotel_link']
+    list_display = ['name', 'score', 'hotel_price',  'img_url','hotel_link',
+                    'hotel_content', 'scenic_id', 'supplier_id' ]
     # 搜索的字段
     search_fields = ['name', 'scenic_id']
     # 过滤
@@ -73,11 +72,11 @@ class HotelMsgAdmin(object):
 
 class StrategyMsgAdmin(object):
     # 显示的列
-    list_display = ['id', 'title', 'link_url', 'simple_content', 'supplier_id', 'img_url', 'city_id', 'scenic_id']
+    list_display = ['id', 'title', 'link_url', 'simple_content', 'supplier_id', 'img_url',  'scenic_name']
     # 搜索的字段
     search_fields = ['title', 'link_url']
     # 过滤
-    list_filter = ['id', 'title', 'link_url', 'simple_content', 'supplier_id', 'img_url', 'city_id', 'scenic_id']
+    list_filter = ['id', 'title', 'link_url', 'simple_content', 'supplier_id', 'img_url', 'scenic_name']
 
 
 # 将基本配置管理与view绑定

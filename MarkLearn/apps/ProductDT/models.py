@@ -68,7 +68,7 @@ class ProductMsg(models.Model):
 class Product_City(models.Model):
     product_id = models.ForeignKey(ProductMsg, verbose_name='产品id', on_delete=models.CASCADE)
     city_id = models.CharField('供应城市', max_length=100)
-    product_price = models.CharField('对应价格')
+    product_price = models.CharField('对应价格',max_length=10)
 
     class Meta:
         verbose_name = '产品供应表'
@@ -149,9 +149,7 @@ class StrategyMsg(models.Model):
     simple_content = models.CharField('简介', max_length=1000)
     supplier_id = models.ForeignKey(Supplier, verbose_name='供应商', on_delete=models.CASCADE, null=True, blank=True)
     img_url = models.CharField('图片链接', max_length=100)
-    city_id = models.ForeignKey(CityMsg, verbose_name='相关城市', on_delete=models.CASCADE, null=True, blank=True)  # 允许为空
-    scenic_id = models.ForeignKey(ScenicMsg, verbose_name='相关景点', on_delete=models.CASCADE, null=True,
-                                  blank=True)  # 允许为空
+    scenic_name = models.CharField('相关景点', max_length=100)  # 允许为空
 
     class Meta:
         verbose_name = '攻略信息'

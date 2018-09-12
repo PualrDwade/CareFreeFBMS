@@ -1333,3 +1333,1147 @@ Starting development server at http://127.0.0.1:8000/
 Quit the server with CONTROL-C.
 [11/Sep/2018 23:58:38] "GET /ProductDT/hotelmsg/?_q_=cap HTTP/1.0" 200 50287
 [11/Sep/2018 23:58:39] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 00:38:42] "GET / HTTP/1.0" 200 4135
+Not Found: /azenv.php
+[12/Sep/2018 00:51:59] "POST /azenv.php?auth=153668471999&a=PSCN&i=2018496032&p=80 HTTP/1.0" 404 7236
+Not Found: /cache/global/img/gs.gif
+[12/Sep/2018 01:19:04] "GET /cache/global/img/gs.gif HTTP/1.0" 404 7222
+[12/Sep/2018 01:24:34] "GET / HTTP/1.0" 200 4135
+Not Found: /js/czjl.js
+[12/Sep/2018 01:29:20] "GET /js/czjl.js HTTP/1.0" 404 7183
+[12/Sep/2018 02:42:33] "GET / HTTP/1.0" 200 4135
+Not Found: /js/czjl.js
+[12/Sep/2018 02:49:00] "GET /js/czjl.js HTTP/1.0" 404 7183
+[12/Sep/2018 03:14:09] "GET / HTTP/1.0" 200 4135
+Not Found: /js/czjl.js
+[12/Sep/2018 04:05:25] "GET /js/czjl.js HTTP/1.0" 404 7183
+[12/Sep/2018 04:05:55] "GET / HTTP/1.0" 200 4135
+[12/Sep/2018 04:21:18] "GET / HTTP/1.0" 200 4135
+Not Found: /js/czjl.js
+[12/Sep/2018 05:29:30] "GET /js/czjl.js HTTP/1.0" 404 7183
+Not Found: /phpmyadmin/scripts/setup.php
+[12/Sep/2018 06:12:33] "GET /phpmyadmin/scripts/setup.php HTTP/1.0" 404 7237
+Not Found: /js/czjl.js
+[12/Sep/2018 07:34:01] "GET /js/czjl.js HTTP/1.0" 404 7183
+[12/Sep/2018 07:37:33] "GET / HTTP/1.0" 200 4135
+[12/Sep/2018 07:38:04] "GET / HTTP/1.0" 200 4135
+[12/Sep/2018 07:57:00] "GET / HTTP/1.0" 200 4135
+Not Found: /azenv.php
+[12/Sep/2018 08:18:49] "POST /azenv.php?auth=153671152959&a=PSCN&i=2018496032&p=80 HTTP/1.0" 404 7236
+[12/Sep/2018 08:42:56] "GET / HTTP/1.0" 200 4135
+Not Found: /js/czjl.js
+[12/Sep/2018 08:57:37] "GET /js/czjl.js HTTP/1.0" 404 7183
+[12/Sep/2018 08:59:25] "GET / HTTP/1.0" 200 4135
+[12/Sep/2018 10:02:32] "GET / HTTP/1.0" 200 82395
+[12/Sep/2018 10:02:32] "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.0" 304 0
+[12/Sep/2018 10:02:32] "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.0" 304 0
+[12/Sep/2018 10:02:32] "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.0" 304 0
+[12/Sep/2018 10:02:32] "GET /static/xadmin/css/xadmin.main.css HTTP/1.0" 304 0
+[12/Sep/2018 10:02:32] "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.0" 304 0
+[12/Sep/2018 10:02:32] "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.0" 304 0
+[12/Sep/2018 10:02:32] "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.0" 304 0
+[12/Sep/2018 10:02:32] "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.0" 304 0
+[12/Sep/2018 10:02:32] "GET / HTTP/1.0" 200 82395
+[12/Sep/2018 10:02:32] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.0" 304 0
+[12/Sep/2018 10:02:32] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 10:02:32] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.0" 304 0
+[12/Sep/2018 10:02:32] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.0" 304 0
+[12/Sep/2018 10:02:32] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.0" 304 0
+[12/Sep/2018 10:02:32] "GET /static/xadmin/js/xadmin.main.js HTTP/1.0" 304 0
+[12/Sep/2018 10:02:32] "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.0" 304 0
+[12/Sep/2018 10:02:32] "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.0" 304 0
+[12/Sep/2018 10:02:32] "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.0" 304 0
+[12/Sep/2018 10:02:32] "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.0" 304 0
+[12/Sep/2018 10:02:32] "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.0" 304 0
+Not Found: /github/400.woff
+[12/Sep/2018 10:02:32] "GET /github/400.woff HTTP/1.0" 404 7198
+Not Found: /github/700.woff
+[12/Sep/2018 10:02:32] "GET /github/700.woff HTTP/1.0" 404 7198
+Not Found: /github/400i.woff
+[12/Sep/2018 10:02:33] "GET /github/400i.woff HTTP/1.0" 404 7201
+[12/Sep/2018 10:02:33] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.0" 200 15069
+Not Found: /favicon.ico
+[12/Sep/2018 10:02:33] "GET /favicon.ico HTTP/1.0" 404 7186
+[12/Sep/2018 10:02:37] "GET /TraverMsg/scenicmsg/ HTTP/1.0" 200 31252
+[12/Sep/2018 10:02:37] "GET /static/xadmin/css/xadmin.form.css HTTP/1.0" 304 0
+[12/Sep/2018 10:02:37] "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.0" 304 0
+[12/Sep/2018 10:02:37] "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.0" 304 0
+[12/Sep/2018 10:02:37] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 10:02:37] "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.0" 304 0
+[12/Sep/2018 10:02:37] "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.0" 304 0
+[12/Sep/2018 10:02:37] "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.0" 304 0
+[12/Sep/2018 10:02:39] "GET /ProductDT/supplier/ HTTP/1.0" 200 42925
+[12/Sep/2018 10:02:40] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 10:02:40] "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.0" 304 0
+[12/Sep/2018 10:02:41] "GET /ProductDT/productmsg/ HTTP/1.0" 200 34550
+[12/Sep/2018 10:02:41] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 10:02:42] "GET /ProductDT/ticketsmsg/ HTTP/1.0" 200 152222
+[12/Sep/2018 10:02:43] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 10:02:47] "GET /ProductDT/hotelmsg/ HTTP/1.0" 200 132713
+[12/Sep/2018 10:02:47] "GET /jsi18n/ HTTP/1.0" 200 7684
+Not Found: /js/czjl.js
+[12/Sep/2018 10:20:57] "GET /js/czjl.js HTTP/1.0" 404 7183
+[12/Sep/2018 10:24:35] "GET / HTTP/1.0" 200 4135
+[12/Sep/2018 10:36:22] "GET / HTTP/1.0" 200 4135
+[12/Sep/2018 10:36:23] "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.0" 200 240196
+[12/Sep/2018 10:36:24] "GET /jsi18n/ HTTP/1.0" 200 4142
+[12/Sep/2018 10:36:24] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.0" 200 8195
+[12/Sep/2018 10:36:25] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.0" 200 15069
+[12/Sep/2018 10:36:25] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.0" 200 4561
+[12/Sep/2018 10:36:25] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.0" 200 42543
+[12/Sep/2018 10:36:26] "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.0" 200 58327
+[12/Sep/2018 10:36:28] "GET /static/xadmin/js/xadmin.main.js HTTP/1.0" 200 3401
+[12/Sep/2018 10:36:28] "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.0" 200 4033
+[12/Sep/2018 10:38:39] "HEAD / HTTP/1.0" 200 4135
+[12/Sep/2018 10:39:06] "GET / HTTP/1.0" 200 4135
+[12/Sep/2018 10:46:13] "GET / HTTP/1.0" 200 4135
+[12/Sep/2018 10:46:29] "GET / HTTP/1.0" 200 4135
+[12/Sep/2018 10:51:51] "GET / HTTP/1.0" 200 82395
+[12/Sep/2018 10:51:51] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 10:51:51] "GET / HTTP/1.0" 200 82395
+Not Found: /github/400.woff
+[12/Sep/2018 10:51:52] "GET /github/400.woff HTTP/1.0" 404 7198
+Not Found: /github/700.woff
+[12/Sep/2018 10:51:52] "GET /github/700.woff HTTP/1.0" 404 7198
+Not Found: /github/400i.woff
+[12/Sep/2018 10:51:52] "GET /github/400i.woff HTTP/1.0" 404 7201
+Performing system checks...
+
+System check identified no issues (0 silenced).
+September 11, 2018 - 23:58:38
+Django version 2.0.7, using settings 'MarkLearn.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[12/Sep/2018 11:00:39] "GET / HTTP/1.0" 200 82395
+[12/Sep/2018 11:00:40] "GET / HTTP/1.0" 200 82395
+[12/Sep/2018 11:00:40] "GET /jsi18n/ HTTP/1.0" 200 7684
+Not Found: /github/400.woff
+[12/Sep/2018 11:00:40] "GET /github/400.woff HTTP/1.0" 404 7198
+Not Found: /github/700.woff
+[12/Sep/2018 11:00:40] "GET /github/700.woff HTTP/1.0" 404 7198
+Not Found: /github/400i.woff
+[12/Sep/2018 11:00:40] "GET /github/400i.woff HTTP/1.0" 404 7201
+[12/Sep/2018 11:00:46] "GET /TraverMsg/citymsg/ HTTP/1.0" 200 31951
+[12/Sep/2018 11:00:46] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 11:00:55] "GET /ProductDT/ticketsmsg/ HTTP/1.0" 200 152222
+[12/Sep/2018 11:00:55] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 11:00:57] "GET /ProductDT/hotelmsg/ HTTP/1.0" 200 132713
+[12/Sep/2018 11:00:58] "GET /jsi18n/ HTTP/1.0" 200 7684
+Not Found: /phpMyAdmin/scripts/setup.php
+[12/Sep/2018 11:01:10] "GET /phpMyAdmin/scripts/setup.php HTTP/1.0" 404 7237
+[12/Sep/2018 11:01:30] "GET /ProductDT/strategymsg/ HTTP/1.0" 200 34205
+[12/Sep/2018 11:01:30] "GET /jsi18n/ HTTP/1.0" 200 7684
+Internal Server Error: /ProductDT/productmsg/
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib64/python3.6/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/local/lib64/python3.6/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/usr/local/lib64/python3.6/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/usr/local/lib64/python3.6/site-packages/pymysql/connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib64/python3.6/site-packages/pymysql/connections.py", line 727, in _read_query_result
+    result.read()
+  File "/usr/local/lib64/python3.6/site-packages/pymysql/connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "/usr/local/lib64/python3.6/site-packages/pymysql/connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "/usr/local/lib64/python3.6/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/usr/local/lib64/python3.6/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1054, "Unknown column 'ProductDT_productmsg.comments_num' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/sites.py", line 300, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "/usr/local/lib64/python3.6/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/sites.py", line 208, in inner
+    return view(request, *args, **kwargs)
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/base.py", line 282, in view
+    return handler(request, *args, **kwargs)
+  File "/usr/local/lib64/python3.6/site-packages/django/utils/decorators.py", line 62, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/usr/local/lib64/python3.6/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib64/python3.6/site-packages/django/utils/decorators.py", line 58, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/base.py", line 80, in method
+    return filter_chain(filters, len(filters) - 1, _inner_method, *args, **kwargs)
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/base.py", line 49, in filter_chain
+    return func()
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/base.py", line 74, in _inner_method
+    return func(self, *args, **kwargs)
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/list.py", line 401, in get
+    response = self.get_result_list()
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/base.py", line 80, in method
+    return filter_chain(filters, len(filters) - 1, _inner_method, *args, **kwargs)
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/base.py", line 49, in filter_chain
+    return func()
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/base.py", line 74, in _inner_method
+    return func(self, *args, **kwargs)
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/list.py", line 200, in get_result_list
+    return self.make_result_list()
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/list.py", line 196, in make_result_list
+    self.list_per_page * self.page_num + len(self.result_list))
+  File "/usr/local/lib64/python3.6/site-packages/django/db/models/query.py", line 254, in __len__
+    self._fetch_all()
+  File "/usr/local/lib64/python3.6/site-packages/django/db/models/query.py", line 1179, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/usr/local/lib64/python3.6/site-packages/django/db/models/query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/usr/local/lib64/python3.6/site-packages/django/db/models/sql/compiler.py", line 1068, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib64/python3.6/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/usr/local/lib64/python3.6/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/usr/local/lib64/python3.6/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/usr/local/lib64/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib64/python3.6/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib64/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib64/python3.6/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/local/lib64/python3.6/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/usr/local/lib64/python3.6/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/usr/local/lib64/python3.6/site-packages/pymysql/connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib64/python3.6/site-packages/pymysql/connections.py", line 727, in _read_query_result
+    result.read()
+  File "/usr/local/lib64/python3.6/site-packages/pymysql/connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "/usr/local/lib64/python3.6/site-packages/pymysql/connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "/usr/local/lib64/python3.6/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/usr/local/lib64/python3.6/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.InternalError: (1054, "Unknown column 'ProductDT_productmsg.comments_num' in 'field list'")
+[12/Sep/2018 11:01:32] "GET /ProductDT/productmsg/ HTTP/1.0" 500 279429
+[12/Sep/2018 11:01:39] "GET /ProductDT/strategymsg/ HTTP/1.0" 200 34205
+[12/Sep/2018 11:01:43] "GET /ProductDT/ticketsmsg/ HTTP/1.0" 200 152222
+[12/Sep/2018 11:01:43] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 11:01:45] "GET /ProductDT/hotelmsg/ HTTP/1.0" 200 132713
+[12/Sep/2018 11:01:45] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 11:01:51] "GET /ProductDT/ticketsmsg/ HTTP/1.0" 200 152222
+[12/Sep/2018 11:01:51] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 11:02:42] "GET /TraverMsg/scenicmsg/ HTTP/1.0" 200 31252
+[12/Sep/2018 11:02:42] "GET /jsi18n/ HTTP/1.0" 200 7684
+Internal Server Error: /ProductDT/productmsg/
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib64/python3.6/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/local/lib64/python3.6/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/usr/local/lib64/python3.6/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/usr/local/lib64/python3.6/site-packages/pymysql/connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib64/python3.6/site-packages/pymysql/connections.py", line 727, in _read_query_result
+    result.read()
+  File "/usr/local/lib64/python3.6/site-packages/pymysql/connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "/usr/local/lib64/python3.6/site-packages/pymysql/connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "/usr/local/lib64/python3.6/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/usr/local/lib64/python3.6/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1054, "Unknown column 'ProductDT_productmsg.comments_num' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib64/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/sites.py", line 300, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "/usr/local/lib64/python3.6/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/sites.py", line 208, in inner
+    return view(request, *args, **kwargs)
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/base.py", line 282, in view
+    return handler(request, *args, **kwargs)
+  File "/usr/local/lib64/python3.6/site-packages/django/utils/decorators.py", line 62, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/usr/local/lib64/python3.6/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib64/python3.6/site-packages/django/utils/decorators.py", line 58, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/base.py", line 80, in method
+    return filter_chain(filters, len(filters) - 1, _inner_method, *args, **kwargs)
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/base.py", line 49, in filter_chain
+    return func()
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/base.py", line 74, in _inner_method
+    return func(self, *args, **kwargs)
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/list.py", line 401, in get
+    response = self.get_result_list()
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/base.py", line 80, in method
+    return filter_chain(filters, len(filters) - 1, _inner_method, *args, **kwargs)
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/base.py", line 49, in filter_chain
+    return func()
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/base.py", line 74, in _inner_method
+    return func(self, *args, **kwargs)
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/list.py", line 200, in get_result_list
+    return self.make_result_list()
+  File "/root/GitLab/MarkLearn/extra_apps/xadmin/views/list.py", line 196, in make_result_list
+    self.list_per_page * self.page_num + len(self.result_list))
+  File "/usr/local/lib64/python3.6/site-packages/django/db/models/query.py", line 254, in __len__
+    self._fetch_all()
+  File "/usr/local/lib64/python3.6/site-packages/django/db/models/query.py", line 1179, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/usr/local/lib64/python3.6/site-packages/django/db/models/query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/usr/local/lib64/python3.6/site-packages/django/db/models/sql/compiler.py", line 1068, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib64/python3.6/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/usr/local/lib64/python3.6/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/usr/local/lib64/python3.6/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/usr/local/lib64/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib64/python3.6/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib64/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib64/python3.6/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/local/lib64/python3.6/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/usr/local/lib64/python3.6/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/usr/local/lib64/python3.6/site-packages/pymysql/connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib64/python3.6/site-packages/pymysql/connections.py", line 727, in _read_query_result
+    result.read()
+  File "/usr/local/lib64/python3.6/site-packages/pymysql/connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "/usr/local/lib64/python3.6/site-packages/pymysql/connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "/usr/local/lib64/python3.6/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/usr/local/lib64/python3.6/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.InternalError: (1054, "Unknown column 'ProductDT_productmsg.comments_num' in 'field list'")
+[12/Sep/2018 11:02:54] "GET /ProductDT/productmsg/ HTTP/1.0" 500 279428
+[12/Sep/2018 11:02:56] "GET /TraverMsg/scenicmsg/ HTTP/1.0" 200 31252
+Performing system checks...
+
+System check identified no issues (0 silenced).
+September 12, 2018 - 10:58:14
+Django version 2.0.7, using settings 'MarkLearn.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+September 12, 2018 - 11:07:23
+Django version 2.0.7, using settings 'MarkLearn.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+September 12, 2018 - 11:11:03
+Django version 2.0.7, using settings 'MarkLearn.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+September 12, 2018 - 11:15:16
+Django version 2.0.7, using settings 'MarkLearn.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+September 12, 2018 - 11:15:59
+Django version 2.0.7, using settings 'MarkLearn.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[12/Sep/2018 11:17:32] "GET / HTTP/1.0" 200 82395
+[12/Sep/2018 11:17:32] "GET / HTTP/1.0" 200 82395
+[12/Sep/2018 11:17:32] "GET /jsi18n/ HTTP/1.0" 200 7684
+Not Found: /github/400.woff
+[12/Sep/2018 11:17:32] "GET /github/400.woff HTTP/1.0" 404 7198
+Not Found: /github/700.woff
+[12/Sep/2018 11:17:32] "GET /github/700.woff HTTP/1.0" 404 7198
+Not Found: /github/400i.woff
+[12/Sep/2018 11:17:32] "GET /github/400i.woff HTTP/1.0" 404 7201
+[12/Sep/2018 11:17:35] "GET /ProductDT/productmsg/ HTTP/1.0" 200 35245
+[12/Sep/2018 11:17:35] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 11:17:36] "GET /ProductDT/supplier/ HTTP/1.0" 200 42925
+[12/Sep/2018 11:17:37] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 11:17:38] "GET /ProductDT/ticketsmsg/ HTTP/1.0" 200 151382
+[12/Sep/2018 11:17:38] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 11:17:48] "GET /ProductDT/hotelmsg/ HTTP/1.0" 200 124698
+[12/Sep/2018 11:17:48] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 11:17:56] "GET /ProductDT/strategymsg/ HTTP/1.0" 200 34205
+[12/Sep/2018 11:17:56] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 11:21:04] "GET /ProductDT/strategymsg/ HTTP/1.0" 200 34205
+[12/Sep/2018 11:21:05] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 11:21:17] "GET /ProductDT/hotelmsg/ HTTP/1.0" 200 124698
+[12/Sep/2018 11:21:17] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 11:21:32] "GET /ProductDT/ticketsmsg/ HTTP/1.0" 200 151382
+[12/Sep/2018 11:21:32] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 11:22:25] "GET /ProductDT/ticketsmsg/add/ HTTP/1.0" 200 25965
+[12/Sep/2018 11:22:25] "GET /static/xadmin/vendor/select2/select2.css HTTP/1.0" 304 0
+[12/Sep/2018 11:22:25] "GET /static/xadmin/vendor/selectize/selectize.css HTTP/1.0" 304 0
+[12/Sep/2018 11:22:25] "GET /static/xadmin/vendor/selectize/selectize.bootstrap3.css HTTP/1.0" 304 0
+[12/Sep/2018 11:22:25] "GET /static/xadmin/vendor/select2/select2.js HTTP/1.0" 304 0
+[12/Sep/2018 11:22:25] "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.0" 200 98602
+[12/Sep/2018 11:22:25] "GET /static/xadmin/vendor/select2/select2_locale_zh-hans.js HTTP/1.0" 304 0
+[12/Sep/2018 11:22:25] "GET /static/xadmin/js/xadmin.widget.select.js HTTP/1.0" 304 0
+[12/Sep/2018 11:22:25] "GET /static/xadmin/js/xadmin.plugin.quick-form.js HTTP/1.0" 304 0
+[12/Sep/2018 11:22:25] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 11:22:25] "GET /static/xadmin/vendor/select2/select2.js?_t1536722545141=0i HTTP/1.0" 200 104906
+[12/Sep/2018 11:22:30] "GET /ProductDT/ticketsmsg/ HTTP/1.0" 200 151382
+[12/Sep/2018 11:23:21] "GET /TraverMsg/scenicmsg/ HTTP/1.0" 200 31252
+[12/Sep/2018 11:23:21] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 11:24:20] "GET /TraverMsg/citymsg/ HTTP/1.0" 200 31951
+[12/Sep/2018 11:24:20] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 11:24:20] "GET /TraverMsg/citymsg/ HTTP/1.0" 200 31951
+[12/Sep/2018 11:24:21] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 11:24:22] "GET /TraverMsg/travermsg/ HTTP/1.0" 200 34167
+[12/Sep/2018 11:24:22] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 11:24:22] "GET /static/xadmin/vendor/select2/select2.js HTTP/1.0" 200 104906
+[12/Sep/2018 11:24:22] "GET /static/xadmin/vendor/select2/select2.js?_t1536722662007=0i HTTP/1.0" 200 104906
+[12/Sep/2018 11:24:23] "GET /TraverMsg/scenicmsg/ HTTP/1.0" 200 31252
+[12/Sep/2018 11:24:23] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 11:24:24] "GET /TraverMsg/provincemsg/ HTTP/1.0" 200 36525
+[12/Sep/2018 11:24:24] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 11:24:27] "GET /TraverMsg/citymsg/ HTTP/1.0" 200 31951
+[12/Sep/2018 11:24:27] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 11:24:30] "GET /ProductDT/supplier/ HTTP/1.0" 200 42925
+[12/Sep/2018 11:24:30] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 11:24:32] "GET /ProductDT/productmsg/ HTTP/1.0" 200 35245
+[12/Sep/2018 11:24:32] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 11:24:33] "GET / HTTP/1.0" 200 4135
+[12/Sep/2018 11:24:33] "GET /ProductDT/ticketsmsg/ HTTP/1.0" 200 151382
+[12/Sep/2018 11:24:34] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 11:24:35] "GET /ProductDT/hotelmsg/ HTTP/1.0" 200 124698
+[12/Sep/2018 11:24:36] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 11:24:37] "GET /ProductDT/hotelmsg/ HTTP/1.0" 200 124698
+[12/Sep/2018 11:24:37] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 11:24:40] "GET /ProductDT/ticketsmsg/ HTTP/1.0" 200 151382
+[12/Sep/2018 11:24:40] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 11:25:03] "GET /ProductDT/hotelmsg/ HTTP/1.0" 200 124698
+[12/Sep/2018 11:25:03] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 11:25:13] "POST /ProductDT/hotelmsg/ HTTP/1.0" 200 29996
+[12/Sep/2018 11:25:13] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 11:25:16] "POST /ProductDT/hotelmsg/ HTTP/1.0" 302 0
+[12/Sep/2018 11:25:16] "GET /ProductDT/hotelmsg/ HTTP/1.0" 200 35859
+[12/Sep/2018 11:25:17] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 11:25:19] "GET /ProductDT/ticketsmsg/ HTTP/1.0" 200 151382
+[12/Sep/2018 11:25:19] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 11:25:28] "POST /ProductDT/ticketsmsg/ HTTP/1.0" 200 29580
+[12/Sep/2018 11:25:28] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 11:25:33] "POST /ProductDT/ticketsmsg/ HTTP/1.0" 302 0
+[12/Sep/2018 11:25:34] "GET /ProductDT/ticketsmsg/ HTTP/1.0" 200 142465
+[12/Sep/2018 11:25:34] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 11:25:41] "POST /ProductDT/ticketsmsg/ HTTP/1.0" 200 55770
+[12/Sep/2018 11:25:42] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 11:25:44] "POST /ProductDT/ticketsmsg/ HTTP/1.0" 302 0
+[12/Sep/2018 11:25:44] "GET /ProductDT/ticketsmsg/ HTTP/1.0" 200 33292
+[12/Sep/2018 11:25:45] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 11:28:55] "GET / HTTP/1.0" 200 82395
+[12/Sep/2018 11:28:55] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 11:28:56] "GET / HTTP/1.0" 200 82395
+Not Found: /github/400.woff
+[12/Sep/2018 11:28:56] "GET /github/400.woff HTTP/1.0" 404 7198
+Not Found: /github/700.woff
+[12/Sep/2018 11:28:56] "GET /github/700.woff HTTP/1.0" 404 7198
+Not Found: /github/400i.woff
+[12/Sep/2018 11:28:56] "GET /github/400i.woff HTTP/1.0" 404 7201
+[12/Sep/2018 11:29:01] "GET /ProductDT/hotelmsg/ HTTP/1.0" 200 125501
+[12/Sep/2018 11:29:01] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 11:29:09] "GET /ProductDT/productmsg/ HTTP/1.0" 200 35245
+[12/Sep/2018 11:29:09] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 11:29:10] "GET /ProductDT/supplier/ HTTP/1.0" 200 42925
+[12/Sep/2018 11:29:10] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 11:29:13] "GET /ProductDT/ticketsmsg/ HTTP/1.0" 200 152151
+[12/Sep/2018 11:29:13] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 11:29:34] "GET / HTTP/1.0" 200 4135
+[12/Sep/2018 11:30:03] "GET /ProductDT/hotelmsg/ HTTP/1.0" 200 125501
+[12/Sep/2018 11:30:04] "GET /jsi18n/ HTTP/1.0" 200 7684
+Not Found: /js/czjl.js
+[12/Sep/2018 11:45:24] "GET /js/czjl.js HTTP/1.0" 404 7183
+[12/Sep/2018 12:23:55] "GET / HTTP/1.0" 200 82395
+[12/Sep/2018 12:23:55] "GET / HTTP/1.0" 200 82395
+[12/Sep/2018 12:23:55] "GET /jsi18n/ HTTP/1.0" 200 7684
+Not Found: /github/400.woff
+[12/Sep/2018 12:23:55] "GET /github/400.woff HTTP/1.0" 404 7198
+Not Found: /github/700.woff
+[12/Sep/2018 12:23:55] "GET /github/700.woff HTTP/1.0" 404 7198
+Not Found: /github/400i.woff
+[12/Sep/2018 12:23:55] "GET /github/400i.woff HTTP/1.0" 404 7201
+[12/Sep/2018 12:23:58] "GET /ProductDT/hotelmsg/ HTTP/1.0" 200 142913
+[12/Sep/2018 12:23:58] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 12:24:09] "POST /ProductDT/hotelmsg/ HTTP/1.0" 200 44906
+[12/Sep/2018 12:24:10] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 12:24:12] "POST /ProductDT/hotelmsg/ HTTP/1.0" 302 0
+[12/Sep/2018 12:24:13] "GET /ProductDT/hotelmsg/ HTTP/1.0" 200 35860
+[12/Sep/2018 12:24:13] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 12:28:17] "GET / HTTP/1.0" 200 82395
+[12/Sep/2018 12:28:17] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 12:28:18] "GET / HTTP/1.0" 200 82395
+Not Found: /github/400.woff
+[12/Sep/2018 12:28:18] "GET /github/400.woff HTTP/1.0" 404 7198
+Not Found: /github/700.woff
+[12/Sep/2018 12:28:18] "GET /github/700.woff HTTP/1.0" 404 7198
+Not Found: /github/400i.woff
+[12/Sep/2018 12:28:18] "GET /github/400i.woff HTTP/1.0" 404 7201
+[12/Sep/2018 12:28:21] "GET /ProductDT/hotelmsg/ HTTP/1.0" 200 35629
+[12/Sep/2018 12:28:21] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 12:36:16] "GET / HTTP/1.0" 200 82395
+[12/Sep/2018 12:36:16] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 12:36:17] "GET / HTTP/1.0" 200 82395
+Not Found: /github/400.woff
+[12/Sep/2018 12:36:17] "GET /github/400.woff HTTP/1.0" 404 7198
+Not Found: /github/700.woff
+[12/Sep/2018 12:36:17] "GET /github/700.woff HTTP/1.0" 404 7198
+Not Found: /github/400i.woff
+[12/Sep/2018 12:36:17] "GET /github/400i.woff HTTP/1.0" 404 7201
+[12/Sep/2018 12:36:21] "GET /ProductDT/hotelmsg/ HTTP/1.0" 200 136309
+[12/Sep/2018 12:36:21] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 12:37:10] "GET /ProductDT/hotelmsg/?p=1 HTTP/1.0" 200 120366
+[12/Sep/2018 12:37:10] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 12:37:19] "GET /ProductDT/hotelmsg/?p=0 HTTP/1.0" 200 138228
+[12/Sep/2018 12:37:20] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 12:37:30] "GET /ProductDT/hotelmsg/?p=1 HTTP/1.0" 200 120366
+[12/Sep/2018 12:37:30] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 12:37:42] "GET /ProductDT/hotelmsg/?p=0 HTTP/1.0" 200 138228
+[12/Sep/2018 12:37:42] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 12:39:14] "GET /ProductDT/hotelmsg/?p=1 HTTP/1.0" 200 120366
+[12/Sep/2018 12:39:14] "GET /ProductDT/hotelmsg/?p=1 HTTP/1.0" 200 120366
+[12/Sep/2018 12:39:14] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 12:42:50] "GET / HTTP/1.0" 200 82395
+[12/Sep/2018 12:42:50] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 12:42:51] "GET / HTTP/1.0" 200 82395
+Not Found: /github/400.woff
+[12/Sep/2018 12:42:51] "GET /github/400.woff HTTP/1.0" 404 7198
+Not Found: /github/700.woff
+[12/Sep/2018 12:42:51] "GET /github/700.woff HTTP/1.0" 404 7198
+Not Found: /github/400i.woff
+[12/Sep/2018 12:42:51] "GET /github/400i.woff HTTP/1.0" 404 7201
+[12/Sep/2018 12:42:58] "GET /ProductDT/supplier/ HTTP/1.0" 200 42925
+[12/Sep/2018 12:42:58] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 12:43:16] "GET /ProductDT/ticketsmsg/ HTTP/1.0" 200 152151
+[12/Sep/2018 12:43:16] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 12:43:30] "GET /ProductDT/hotelmsg/ HTTP/1.0" 200 136309
+[12/Sep/2018 12:43:30] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 12:43:47] "GET /ProductDT/strategymsg/ HTTP/1.0" 200 34205
+[12/Sep/2018 12:43:47] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 12:44:16] "GET /ProductDT/ticketsmsg/ HTTP/1.0" 200 152151
+[12/Sep/2018 12:44:17] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 12:44:20] "GET /ProductDT/hotelmsg/ HTTP/1.0" 200 136309
+[12/Sep/2018 12:44:20] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 12:48:27] "GET /ProductDT/supplier/ HTTP/1.0" 200 42925
+[12/Sep/2018 12:48:27] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 12:53:59] "GET / HTTP/1.0" 200 82395
+[12/Sep/2018 12:53:59] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 12:53:59] "GET / HTTP/1.0" 200 82395
+Not Found: /github/700.woff
+[12/Sep/2018 12:54:00] "GET /github/700.woff HTTP/1.0" 404 7198
+Not Found: /github/400.woff
+[12/Sep/2018 12:54:00] "GET /github/400.woff HTTP/1.0" 404 7198
+Not Found: /github/400i.woff
+[12/Sep/2018 12:54:00] "GET /github/400i.woff HTTP/1.0" 404 7201
+[12/Sep/2018 12:54:22] "GET /ProductDT/hotelmsg/ HTTP/1.0" 200 136309
+[12/Sep/2018 12:54:22] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 12:54:30] "POST /ProductDT/hotelmsg/ HTTP/1.0" 200 37189
+[12/Sep/2018 12:54:31] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 12:54:33] "POST /ProductDT/hotelmsg/ HTTP/1.0" 302 0
+[12/Sep/2018 12:54:33] "GET /ProductDT/hotelmsg/ HTTP/1.0" 200 35859
+[12/Sep/2018 12:54:33] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 12:57:58] "GET /ProductDT/hotelmsg/ HTTP/1.0" 200 35629
+[12/Sep/2018 12:57:58] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 12:57:59] "GET /ProductDT/hotelmsg/ HTTP/1.0" 200 35629
+[12/Sep/2018 12:58:00] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 12:58:19] "GET /ProductDT/hotelmsg/ HTTP/1.0" 200 35629
+[12/Sep/2018 12:58:19] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 12:58:20] "GET /ProductDT/hotelmsg/ HTTP/1.0" 200 35629
+[12/Sep/2018 12:58:21] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 12:58:22] "GET /ProductDT/hotelmsg/ HTTP/1.0" 200 35629
+[12/Sep/2018 12:58:22] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 12:58:23] "GET /ProductDT/ticketsmsg/ HTTP/1.0" 200 152151
+[12/Sep/2018 12:58:23] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 12:58:26] "GET /ProductDT/hotelmsg/ HTTP/1.0" 200 35629
+[12/Sep/2018 12:58:26] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 12:58:28] "GET /ProductDT/strategymsg/ HTTP/1.0" 200 34205
+[12/Sep/2018 12:58:28] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 12:58:29] "GET /ProductDT/hotelmsg/ HTTP/1.0" 200 35629
+[12/Sep/2018 12:58:29] "GET /jsi18n/ HTTP/1.0" 200 7684
+Not Found: /cache/global/img/gs.gif
+[12/Sep/2018 13:01:20] "GET /cache/global/img/gs.gif HTTP/1.0" 404 7222
+[12/Sep/2018 13:03:48] "GET / HTTP/1.0" 200 82395
+[12/Sep/2018 13:03:48] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 13:03:49] "GET / HTTP/1.0" 200 82395
+Not Found: /github/400.woff
+[12/Sep/2018 13:03:49] "GET /github/400.woff HTTP/1.0" 404 7198
+Not Found: /github/700.woff
+[12/Sep/2018 13:03:49] "GET /github/700.woff HTTP/1.0" 404 7198
+Not Found: /github/400i.woff
+[12/Sep/2018 13:03:49] "GET /github/400i.woff HTTP/1.0" 404 7201
+[12/Sep/2018 13:03:52] "GET /ProductDT/strategymsg/ HTTP/1.0" 200 34205
+[12/Sep/2018 13:03:52] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 13:03:53] "GET /ProductDT/hotelmsg/ HTTP/1.0" 200 35629
+[12/Sep/2018 13:03:53] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 13:03:58] "GET /ProductDT/productmsg/ HTTP/1.0" 200 35245
+[12/Sep/2018 13:03:58] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 13:03:59] "GET /ProductDT/ticketsmsg/ HTTP/1.0" 200 152151
+[12/Sep/2018 13:03:59] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 13:04:05] "GET /ProductDT/supplier/ HTTP/1.0" 200 42925
+[12/Sep/2018 13:04:05] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 13:06:58] "GET /ProductDT/hotelmsg/ HTTP/1.0" 200 35629
+[12/Sep/2018 13:06:58] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 13:06:59] "GET /ProductDT/hotelmsg/ HTTP/1.0" 200 35629
+[12/Sep/2018 13:06:59] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 13:07:00] "GET /ProductDT/hotelmsg/ HTTP/1.0" 200 35629
+[12/Sep/2018 13:07:00] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 13:07:15] "GET / HTTP/1.0" 200 82395
+[12/Sep/2018 13:07:15] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 13:07:15] "GET / HTTP/1.0" 200 82395
+Not Found: /github/400.woff
+[12/Sep/2018 13:07:16] "GET /github/400.woff HTTP/1.0" 404 7198
+Not Found: /github/700.woff
+[12/Sep/2018 13:07:16] "GET /github/700.woff HTTP/1.0" 404 7198
+Not Found: /github/400i.woff
+[12/Sep/2018 13:07:16] "GET /github/400i.woff HTTP/1.0" 404 7201
+[12/Sep/2018 13:07:18] "GET /ProductDT/hotelmsg/ HTTP/1.0" 200 35629
+[12/Sep/2018 13:07:18] "GET /jsi18n/ HTTP/1.0" 200 7684
+Not Found: /js/czjl.js
+[12/Sep/2018 13:09:28] "GET /js/czjl.js HTTP/1.0" 404 7183
+[12/Sep/2018 13:13:31] "GET / HTTP/1.0" 200 82395
+[12/Sep/2018 13:13:31] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 13:13:31] "GET / HTTP/1.0" 200 82395
+Not Found: /github/400.woff
+[12/Sep/2018 13:13:31] "GET /github/400.woff HTTP/1.0" 404 7198
+Not Found: /github/700.woff
+[12/Sep/2018 13:13:31] "GET /github/700.woff HTTP/1.0" 404 7198
+Not Found: /github/400i.woff
+[12/Sep/2018 13:13:31] "GET /github/400i.woff HTTP/1.0" 404 7201
+[12/Sep/2018 13:13:34] "GET /ProductDT/hotelmsg/ HTTP/1.0" 200 35629
+[12/Sep/2018 13:13:34] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 13:13:42] "GET / HTTP/1.0" 200 82395
+[12/Sep/2018 13:13:42] "GET /jsi18n/ HTTP/1.0" 200 7684
+Not Found: /github/400.woff
+[12/Sep/2018 13:13:42] "GET /github/400.woff HTTP/1.0" 404 7198
+Not Found: /github/700.woff
+[12/Sep/2018 13:13:42] "GET /github/700.woff HTTP/1.0" 404 7198
+Not Found: /github/400i.woff
+[12/Sep/2018 13:13:42] "GET /github/400i.woff HTTP/1.0" 404 7201
+[12/Sep/2018 13:15:33] "GET / HTTP/1.0" 200 82395
+[12/Sep/2018 13:15:33] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 13:15:33] "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.0" 304 0
+[12/Sep/2018 13:15:33] "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.0" 304 0
+[12/Sep/2018 13:15:33] "GET /static/xadmin/css/xadmin.main.css HTTP/1.0" 304 0
+[12/Sep/2018 13:15:33] "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.0" 304 0
+[12/Sep/2018 13:15:33] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.0" 304 0
+[12/Sep/2018 13:15:33] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.0" 304 0
+[12/Sep/2018 13:15:33] "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.0" 304 0
+[12/Sep/2018 13:15:33] "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.0" 304 0
+[12/Sep/2018 13:15:33] "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.0" 304 0
+[12/Sep/2018 13:15:33] "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.0" 304 0
+[12/Sep/2018 13:15:33] "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.0" 304 0
+[12/Sep/2018 13:15:33] "GET /static/xadmin/js/xadmin.main.js HTTP/1.0" 304 0
+[12/Sep/2018 13:15:33] "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.0" 304 0
+[12/Sep/2018 13:15:33] "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.0" 304 0
+[12/Sep/2018 13:15:33] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.0" 304 0
+[12/Sep/2018 13:15:33] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.0" 304 0
+[12/Sep/2018 13:15:33] "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.0" 304 0
+Not Found: /github/400.woff
+[12/Sep/2018 13:15:33] "GET /github/400.woff HTTP/1.0" 404 7198
+Not Found: /github/400i.woff
+[12/Sep/2018 13:15:33] "GET /github/400i.woff HTTP/1.0" 404 7201
+Not Found: /github/700.woff
+[12/Sep/2018 13:15:34] "GET /github/700.woff HTTP/1.0" 404 7198
+[12/Sep/2018 13:15:34] "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.0" 304 0
+[12/Sep/2018 13:15:53] "GET /ProductDT/supplier/ HTTP/1.0" 200 42925
+[12/Sep/2018 13:15:54] "GET /static/xadmin/css/xadmin.form.css HTTP/1.0" 304 0
+[12/Sep/2018 13:15:54] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 13:15:54] "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.0" 304 0
+[12/Sep/2018 13:15:54] "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.0" 304 0
+[12/Sep/2018 13:15:54] "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.0" 200 4198
+[12/Sep/2018 13:15:54] "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.0" 304 0
+[12/Sep/2018 13:15:54] "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.0" 304 0
+[12/Sep/2018 13:15:54] "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.0" 304 0
+[12/Sep/2018 13:16:05] "GET /ProductDT/productmsg/ HTTP/1.0" 200 35245
+[12/Sep/2018 13:16:05] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 13:16:08] "GET /ProductDT/ticketsmsg/ HTTP/1.0" 200 152151
+[12/Sep/2018 13:16:08] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 13:16:24] "GET /ProductDT/ticketsmsg/?p=1 HTTP/1.0" 200 155268
+[12/Sep/2018 13:16:24] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 13:16:26] "GET /ProductDT/ticketsmsg/?p=0 HTTP/1.0" 200 155225
+[12/Sep/2018 13:16:26] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 13:16:39] "GET /ProductDT/supplier/ HTTP/1.0" 200 42925
+[12/Sep/2018 13:16:39] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 13:16:43] "GET /ProductDT/ticketsmsg/ HTTP/1.0" 200 152151
+[12/Sep/2018 13:16:43] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 13:16:55] "GET /ProductDT/hotelmsg/ HTTP/1.0" 200 35629
+[12/Sep/2018 13:16:55] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 13:16:57] "GET /ProductDT/strategymsg/ HTTP/1.0" 200 34205
+[12/Sep/2018 13:16:58] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 13:17:00] "GET /ProductDT/ticketsmsg/ HTTP/1.0" 200 152151
+[12/Sep/2018 13:17:00] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 13:17:45] "GET / HTTP/1.0" 200 82395
+[12/Sep/2018 13:17:45] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 13:17:45] "GET / HTTP/1.0" 200 82395
+Not Found: /github/400.woff
+[12/Sep/2018 13:17:46] "GET /github/400.woff HTTP/1.0" 404 7198
+Not Found: /github/700.woff
+[12/Sep/2018 13:17:46] "GET /github/700.woff HTTP/1.0" 404 7198
+Not Found: /github/400i.woff
+[12/Sep/2018 13:17:46] "GET /github/400i.woff HTTP/1.0" 404 7201
+[12/Sep/2018 13:17:49] "GET /ProductDT/hotelmsg/ HTTP/1.0" 200 35629
+[12/Sep/2018 13:17:49] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 13:39:52] "GET / HTTP/1.0" 200 4135
+[12/Sep/2018 14:14:31] "GET / HTTP/1.0" 200 82395
+[12/Sep/2018 14:14:31] "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.0" 304 0
+[12/Sep/2018 14:14:31] "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.0" 304 0
+[12/Sep/2018 14:14:31] "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.0" 304 0
+[12/Sep/2018 14:14:31] "GET /static/xadmin/css/xadmin.main.css HTTP/1.0" 304 0
+[12/Sep/2018 14:14:31] "GET / HTTP/1.0" 200 82395
+[12/Sep/2018 14:14:31] "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.0" 304 0
+[12/Sep/2018 14:14:31] "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.0" 304 0
+[12/Sep/2018 14:14:31] "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.0" 304 0
+[12/Sep/2018 14:14:31] "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.0" 304 0
+[12/Sep/2018 14:14:31] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.0" 304 0
+[12/Sep/2018 14:14:31] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:14:31] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.0" 304 0
+[12/Sep/2018 14:14:31] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.0" 304 0
+[12/Sep/2018 14:14:32] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.0" 304 0
+[12/Sep/2018 14:14:32] "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.0" 304 0
+[12/Sep/2018 14:14:32] "GET /static/xadmin/js/xadmin.main.js HTTP/1.0" 304 0
+[12/Sep/2018 14:14:32] "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.0" 304 0
+Not Found: /github/400.woff
+[12/Sep/2018 14:14:32] "GET /github/400.woff HTTP/1.0" 404 7198
+[12/Sep/2018 14:14:32] "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.0" 304 0
+Not Found: /github/700.woff
+[12/Sep/2018 14:14:32] "GET /github/700.woff HTTP/1.0" 404 7198
+[12/Sep/2018 14:14:32] "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.0" 304 0
+[12/Sep/2018 14:14:32] "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.0" 304 0
+Not Found: /github/400i.woff
+[12/Sep/2018 14:14:32] "GET /github/400i.woff HTTP/1.0" 404 7201
+[12/Sep/2018 14:14:37] "GET /ProductDT/hotelmsg/ HTTP/1.0" 200 142043
+[12/Sep/2018 14:14:37] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:14:38] "GET /static/xadmin/css/xadmin.form.css HTTP/1.0" 304 0
+[12/Sep/2018 14:14:38] "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.0" 304 0
+[12/Sep/2018 14:14:38] "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.0" 304 0
+[12/Sep/2018 14:14:38] "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.0" 304 0
+[12/Sep/2018 14:14:38] "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.0" 304 0
+[12/Sep/2018 14:14:38] "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.0" 304 0
+[12/Sep/2018 14:14:38] "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.0" 304 0
+[12/Sep/2018 14:14:52] "POST /ProductDT/hotelmsg/ HTTP/1.0" 200 142307
+[12/Sep/2018 14:14:52] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:14:58] "POST /ProductDT/hotelmsg/ HTTP/1.0" 200 41093
+[12/Sep/2018 14:14:58] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:15:01] "POST /ProductDT/hotelmsg/ HTTP/1.0" 302 0
+[12/Sep/2018 14:15:01] "GET /ProductDT/hotelmsg/ HTTP/1.0" 200 35860
+[12/Sep/2018 14:15:02] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:16:28] "GET /ProductDT/ticketsmsg/ HTTP/1.0" 200 152151
+[12/Sep/2018 14:16:28] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:16:37] "POST /ProductDT/ticketsmsg/ HTTP/1.0" 200 65308
+[12/Sep/2018 14:16:37] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:16:40] "POST /ProductDT/ticketsmsg/ HTTP/1.0" 302 0
+[12/Sep/2018 14:16:41] "GET /ProductDT/ticketsmsg/ HTTP/1.0" 200 33292
+[12/Sep/2018 14:16:41] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:20:03] "GET /ProductDT/productmsg/ HTTP/1.0" 200 35245
+[12/Sep/2018 14:20:03] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:20:11] "GET /ProductDT/productmsg/ HTTP/1.0" 200 35245
+[12/Sep/2018 14:20:11] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:20:11] "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.0" 304 0
+[12/Sep/2018 14:20:11] "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.0" 304 0
+[12/Sep/2018 14:20:11] "GET /static/xadmin/css/xadmin.form.css HTTP/1.0" 304 0
+[12/Sep/2018 14:20:11] "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.0" 304 0
+[12/Sep/2018 14:20:11] "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.0" 304 0
+[12/Sep/2018 14:20:11] "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.0" 304 0
+[12/Sep/2018 14:20:11] "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.0" 304 0
+[12/Sep/2018 14:20:11] "GET /static/xadmin/css/xadmin.main.css HTTP/1.0" 304 0
+[12/Sep/2018 14:20:11] "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.0" 304 0
+[12/Sep/2018 14:20:11] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.0" 304 0
+[12/Sep/2018 14:20:11] "GET /static/xadmin/js/xadmin.main.js HTTP/1.0" 304 0
+[12/Sep/2018 14:20:11] "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.0" 304 0
+[12/Sep/2018 14:20:11] "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.0" 304 0
+[12/Sep/2018 14:20:11] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.0" 304 0
+[12/Sep/2018 14:20:11] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.0" 304 0
+[12/Sep/2018 14:20:11] "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.0" 304 0
+[12/Sep/2018 14:20:11] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.0" 304 0
+[12/Sep/2018 14:20:11] "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.0" 304 0
+[12/Sep/2018 14:20:11] "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.0" 304 0
+[12/Sep/2018 14:20:11] "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.0" 304 0
+[12/Sep/2018 14:21:49] "GET / HTTP/1.0" 200 82395
+[12/Sep/2018 14:21:49] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:21:49] "GET / HTTP/1.0" 200 82395
+Not Found: /github/400.woff
+[12/Sep/2018 14:21:50] "GET /github/400.woff HTTP/1.0" 404 7198
+Not Found: /github/700.woff
+[12/Sep/2018 14:21:50] "GET /github/700.woff HTTP/1.0" 404 7198
+Not Found: /github/400i.woff
+[12/Sep/2018 14:21:50] "GET /github/400i.woff HTTP/1.0" 404 7201
+[12/Sep/2018 14:21:54] "GET /ProductDT/ticketsmsg/ HTTP/1.0" 200 33061
+[12/Sep/2018 14:21:54] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:22:09] "GET /ProductDT/productmsg/ HTTP/1.0" 200 35245
+[12/Sep/2018 14:22:09] "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.0" 304 0
+[12/Sep/2018 14:22:09] "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.0" 304 0
+[12/Sep/2018 14:22:09] "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.0" 304 0
+[12/Sep/2018 14:22:09] "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.0" 304 0
+[12/Sep/2018 14:22:09] "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.0" 304 0
+[12/Sep/2018 14:22:09] "GET /static/xadmin/css/xadmin.main.css HTTP/1.0" 304 0
+[12/Sep/2018 14:22:09] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.0" 304 0
+[12/Sep/2018 14:22:09] "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.0" 304 0
+[12/Sep/2018 14:22:09] "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.0" 304 0
+[12/Sep/2018 14:22:09] "GET /static/xadmin/css/xadmin.form.css HTTP/1.0" 304 0
+[12/Sep/2018 14:22:09] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:22:09] "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.0" 304 0
+[12/Sep/2018 14:22:09] "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.0" 304 0
+[12/Sep/2018 14:22:09] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.0" 304 0
+[12/Sep/2018 14:22:09] "GET /static/xadmin/js/xadmin.main.js HTTP/1.0" 304 0
+[12/Sep/2018 14:22:09] "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.0" 304 0
+[12/Sep/2018 14:22:09] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.0" 304 0
+[12/Sep/2018 14:22:09] "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.0" 304 0
+[12/Sep/2018 14:22:09] "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.0" 304 0
+[12/Sep/2018 14:22:09] "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.0" 304 0
+[12/Sep/2018 14:22:09] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.0" 304 0
+[12/Sep/2018 14:22:11] "GET /ProductDT/productmsg/ HTTP/1.0" 200 35245
+[12/Sep/2018 14:22:11] "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.0" 304 0
+[12/Sep/2018 14:22:11] "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.0" 304 0
+[12/Sep/2018 14:22:11] "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.0" 304 0
+[12/Sep/2018 14:22:11] "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.0" 304 0
+[12/Sep/2018 14:22:11] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:22:11] "GET /static/xadmin/css/xadmin.form.css HTTP/1.0" 304 0
+[12/Sep/2018 14:22:11] "GET /static/xadmin/css/xadmin.main.css HTTP/1.0" 304 0
+[12/Sep/2018 14:22:11] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.0" 304 0
+[12/Sep/2018 14:22:11] "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.0" 304 0
+[12/Sep/2018 14:22:11] "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.0" 304 0
+[12/Sep/2018 14:22:11] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.0" 304 0
+[12/Sep/2018 14:22:11] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.0" 304 0
+[12/Sep/2018 14:22:11] "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.0" 304 0
+[12/Sep/2018 14:22:11] "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.0" 304 0
+[12/Sep/2018 14:22:11] "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.0" 304 0
+[12/Sep/2018 14:22:11] "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.0" 304 0
+[12/Sep/2018 14:22:11] "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.0" 304 0
+[12/Sep/2018 14:22:11] "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.0" 304 0
+[12/Sep/2018 14:22:11] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.0" 304 0
+[12/Sep/2018 14:22:11] "GET /static/xadmin/js/xadmin.main.js HTTP/1.0" 304 0
+[12/Sep/2018 14:22:11] "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.0" 304 0
+[12/Sep/2018 14:22:13] "GET /ProductDT/productmsg/ HTTP/1.0" 200 35245
+[12/Sep/2018 14:22:13] "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.0" 304 0
+[12/Sep/2018 14:22:13] "GET /static/xadmin/css/xadmin.form.css HTTP/1.0" 304 0
+[12/Sep/2018 14:22:13] "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.0" 304 0
+[12/Sep/2018 14:22:13] "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.0" 304 0
+[12/Sep/2018 14:22:13] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:22:13] "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.0" 304 0
+[12/Sep/2018 14:22:13] "GET /static/xadmin/css/xadmin.main.css HTTP/1.0" 304 0
+[12/Sep/2018 14:22:13] "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.0" 304 0
+[12/Sep/2018 14:22:13] "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.0" 304 0
+[12/Sep/2018 14:22:13] "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.0" 304 0
+[12/Sep/2018 14:22:13] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.0" 304 0
+[12/Sep/2018 14:22:13] "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.0" 304 0
+[12/Sep/2018 14:22:13] "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.0" 304 0
+[12/Sep/2018 14:22:13] "GET /static/xadmin/js/xadmin.main.js HTTP/1.0" 304 0
+[12/Sep/2018 14:22:13] "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.0" 304 0
+[12/Sep/2018 14:22:13] "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.0" 304 0
+[12/Sep/2018 14:22:13] "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.0" 304 0
+[12/Sep/2018 14:22:13] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.0" 304 0
+[12/Sep/2018 14:22:13] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.0" 304 0
+[12/Sep/2018 14:22:13] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.0" 304 0
+[12/Sep/2018 14:22:13] "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.0" 304 0
+[12/Sep/2018 14:22:14] "GET /ProductDT/productmsg/ HTTP/1.0" 200 35245
+[12/Sep/2018 14:22:14] "GET /static/xadmin/css/xadmin.form.css HTTP/1.0" 304 0
+[12/Sep/2018 14:22:14] "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.0" 304 0
+[12/Sep/2018 14:22:14] "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.0" 304 0
+[12/Sep/2018 14:22:14] "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.0" 304 0
+[12/Sep/2018 14:22:14] "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.0" 304 0
+[12/Sep/2018 14:22:14] "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.0" 304 0
+[12/Sep/2018 14:22:14] "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.0" 304 0
+[12/Sep/2018 14:22:14] "GET /static/xadmin/css/xadmin.main.css HTTP/1.0" 304 0
+[12/Sep/2018 14:22:14] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.0" 304 0
+[12/Sep/2018 14:22:14] "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.0" 304 0
+[12/Sep/2018 14:22:14] "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.0" 304 0
+[12/Sep/2018 14:22:14] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:22:14] "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.0" 304 0
+[12/Sep/2018 14:22:14] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.0" 304 0
+[12/Sep/2018 14:22:14] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.0" 304 0
+[12/Sep/2018 14:22:14] "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.0" 304 0
+[12/Sep/2018 14:22:14] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.0" 304 0
+[12/Sep/2018 14:22:14] "GET /static/xadmin/js/xadmin.main.js HTTP/1.0" 304 0
+[12/Sep/2018 14:22:14] "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.0" 304 0
+[12/Sep/2018 14:22:14] "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.0" 304 0
+[12/Sep/2018 14:22:14] "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.0" 304 0
+[12/Sep/2018 14:23:47] "GET /ProductDT/ticketsmsg/ HTTP/1.0" 200 33061
+[12/Sep/2018 14:23:48] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:33:58] "GET / HTTP/1.0" 200 4135
+[12/Sep/2018 14:33:58] "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.0" 200 126432
+[12/Sep/2018 14:33:58] "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.0" 200 1888
+[12/Sep/2018 14:33:58] "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.0" 200 21658
+[12/Sep/2018 14:33:58] "GET /static/xadmin/css/xadmin.main.css HTTP/1.0" 200 8324
+[12/Sep/2018 14:33:58] "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.0" 200 4361
+[12/Sep/2018 14:33:58] "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.0" 200 240196
+[12/Sep/2018 14:33:59] "GET /jsi18n/ HTTP/1.0" 200 4142
+[12/Sep/2018 14:33:59] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.0" 200 8195
+[12/Sep/2018 14:33:59] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.0" 200 15069
+[12/Sep/2018 14:33:59] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.0" 200 4561
+[12/Sep/2018 14:33:59] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.0" 200 42543
+[12/Sep/2018 14:33:59] "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.0" 200 175
+[12/Sep/2018 14:33:59] "GET /static/xadmin/js/xadmin.main.js HTTP/1.0" 200 3401
+[12/Sep/2018 14:33:59] "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.0" 200 58327
+[12/Sep/2018 14:33:59] "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.0" 200 4033
+[12/Sep/2018 14:34:01] "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.0" 200 44432
+Not Found: /favicon.ico
+[12/Sep/2018 14:34:02] "GET /favicon.ico HTTP/1.0" 404 7186
+[12/Sep/2018 14:34:13] "POST / HTTP/1.0" 200 4372
+[12/Sep/2018 14:34:14] "GET /jsi18n/ HTTP/1.0" 200 4142
+[12/Sep/2018 14:34:30] "POST / HTTP/1.0" 200 4372
+[12/Sep/2018 14:34:30] "GET /jsi18n/ HTTP/1.0" 200 4142
+[12/Sep/2018 14:34:44] "POST / HTTP/1.0" 200 4372
+[12/Sep/2018 14:34:44] "GET /jsi18n/ HTTP/1.0" 200 4142
+[12/Sep/2018 14:34:47] "GET / HTTP/1.0" 200 82395
+[12/Sep/2018 14:34:48] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:34:48] "GET / HTTP/1.0" 200 82395
+Not Found: /github/400.woff
+[12/Sep/2018 14:34:48] "GET /github/400.woff HTTP/1.0" 404 7198
+Not Found: /github/700.woff
+[12/Sep/2018 14:34:48] "GET /github/700.woff HTTP/1.0" 404 7198
+Not Found: /github/400i.woff
+[12/Sep/2018 14:34:48] "GET /github/400i.woff HTTP/1.0" 404 7201
+[12/Sep/2018 14:34:51] "GET /ProductDT/ticketsmsg/ HTTP/1.0" 200 152155
+[12/Sep/2018 14:34:52] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:34:57] "GET /ProductDT/productmsg/ HTTP/1.0" 200 35245
+[12/Sep/2018 14:34:57] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:35:00] "GET /ProductDT/ticketsmsg/ HTTP/1.0" 200 152155
+[12/Sep/2018 14:35:00] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:35:07] "POST / HTTP/1.0" 302 0
+[12/Sep/2018 14:35:07] "GET / HTTP/1.0" 200 82395
+[12/Sep/2018 14:35:08] "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.0" 200 790
+[12/Sep/2018 14:35:08] "GET /jsi18n/ HTTP/1.0" 200 7684
+Not Found: /github/700.woff
+[12/Sep/2018 14:35:08] "GET /github/700.woff HTTP/1.0" 404 7198
+Not Found: /github/400.woff
+[12/Sep/2018 14:35:08] "GET /github/400.woff HTTP/1.0" 404 7198
+Not Found: /github/400i.woff
+[12/Sep/2018 14:35:08] "GET /github/400i.woff HTTP/1.0" 404 7201
+[12/Sep/2018 14:35:09] "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.0" 200 3208
+[12/Sep/2018 14:35:09] "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.0" 200 1000
+[12/Sep/2018 14:35:12] "GET /Account/emailverifyrecord/ HTTP/1.0" 200 34917
+[12/Sep/2018 14:35:12] "GET /static/xadmin/vendor/bootstrap-datepicker/css/datepicker.css HTTP/1.0" 200 10225
+[12/Sep/2018 14:35:12] "GET /static/xadmin/css/xadmin.form.css HTTP/1.0" 200 3569
+[12/Sep/2018 14:35:12] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:35:12] "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.0" 200 529
+[12/Sep/2018 14:35:12] "GET /static/xadmin/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js HTTP/1.0" 200 32656
+[12/Sep/2018 14:35:12] "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.0" 200 2319
+[12/Sep/2018 14:35:12] "GET /static/xadmin/js/xadmin.widget.datetime.js HTTP/1.0" 200 2979
+[12/Sep/2018 14:35:12] "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.0" 200 1105
+[12/Sep/2018 14:35:12] "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.0" 200 1948
+[12/Sep/2018 14:35:12] "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.0" 200 1990
+[12/Sep/2018 14:35:15] "GET /xadmin/log/ HTTP/1.0" 200 60121
+[12/Sep/2018 14:35:15] "GET /static/xadmin/vendor/select2/select2.css HTTP/1.0" 200 19226
+[12/Sep/2018 14:35:15] "GET /static/xadmin/vendor/selectize/selectize.css HTTP/1.0" 200 8425
+[12/Sep/2018 14:35:15] "GET /static/xadmin/vendor/selectize/selectize.bootstrap3.css HTTP/1.0" 200 10602
+[12/Sep/2018 14:35:15] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:35:15] "GET /static/xadmin/js/xadmin.widget.select.js HTTP/1.0" 200 1344
+[12/Sep/2018 14:35:15] "GET /static/xadmin/vendor/select2/select2.js HTTP/1.0" 200 104906
+[12/Sep/2018 14:35:15] "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.0" 200 4198
+[12/Sep/2018 14:35:15] "GET /static/xadmin/vendor/select2/select2_locale_zh-hans.js HTTP/1.0" 200 694
+[12/Sep/2018 14:35:15] "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.0" 200 98602
+[12/Sep/2018 14:35:21] "GET /TraverAsk/userask/ HTTP/1.0" 200 36308
+[12/Sep/2018 14:35:21] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:35:22] "GET /TraverAsk/useranswer/ HTTP/1.0" 200 34574
+[12/Sep/2018 14:35:23] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:35:23] "GET /xadmin/log/ HTTP/1.0" 200 60121
+[12/Sep/2018 14:35:23] "GET /static/xadmin/vendor/bootstrap-datepicker/css/datepicker.css HTTP/1.0" 200 10225
+[12/Sep/2018 14:35:23] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:35:23] "GET /static/xadmin/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js HTTP/1.0" 200 32656
+[12/Sep/2018 14:35:23] "GET /static/xadmin/js/xadmin.widget.datetime.js HTTP/1.0" 200 2979
+[12/Sep/2018 14:35:23] "GET /static/xadmin/vendor/select2/select2.js HTTP/1.0" 200 104906
+[12/Sep/2018 14:35:23] "GET /TraverAsk/travernote/ HTTP/1.0" 200 37829
+[12/Sep/2018 14:35:24] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:35:26] "GET /ProductDT/supplier/ HTTP/1.0" 200 42925
+[12/Sep/2018 14:35:27] "GET /jsi18n/ HTTP/1.0" 200 7684
+Not Found: /TraverMsg/citymsg/CN00001_2/update/
+[12/Sep/2018 14:35:30] "GET /TraverMsg/citymsg/CN00001_2/update/ HTTP/1.0" 404 1952
+[12/Sep/2018 14:35:33] "GET /ProductDT/ticketsmsg/ HTTP/1.0" 200 152155
+[12/Sep/2018 14:35:33] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:35:33] "GET /xadmin/log/ HTTP/1.0" 200 60121
+[12/Sep/2018 14:35:40] "GET /Account/emailverifyrecord/ HTTP/1.0" 200 34917
+[12/Sep/2018 14:35:40] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:35:44] "GET /ProductDT/ticketsmsg/ HTTP/1.0" 200 152155
+[12/Sep/2018 14:35:44] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:35:58] "GET /ProductDT/hotelmsg/ HTTP/1.0" 200 35629
+[12/Sep/2018 14:35:58] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:36:00] "GET /ProductDT/strategymsg/ HTTP/1.0" 200 34205
+[12/Sep/2018 14:36:00] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:36:02] "GET /ProductDT/ticketsmsg/ HTTP/1.0" 200 152155
+[12/Sep/2018 14:36:02] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:36:23] "GET /ProductDT/strategymsg/ HTTP/1.0" 200 34205
+[12/Sep/2018 14:36:23] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:36:27] "GET /TraverAsk/userask/ HTTP/1.0" 200 36308
+[12/Sep/2018 14:36:27] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:36:28] "GET /TraverAsk/travernote/ HTTP/1.0" 200 37829
+[12/Sep/2018 14:36:28] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:36:31] "GET /ProductDT/productmsg/ HTTP/1.0" 200 35245
+[12/Sep/2018 14:36:31] "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.0" 304 0
+[12/Sep/2018 14:36:31] "GET /static/xadmin/css/xadmin.main.css HTTP/1.0" 304 0
+[12/Sep/2018 14:36:31] "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.0" 304 0
+[12/Sep/2018 14:36:31] "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.0" 304 0
+[12/Sep/2018 14:36:31] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:36:31] "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.0" 304 0
+[12/Sep/2018 14:36:31] "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.0" 304 0
+[12/Sep/2018 14:36:31] "GET /static/xadmin/css/xadmin.form.css HTTP/1.0" 304 0
+[12/Sep/2018 14:36:31] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.0" 304 0
+[12/Sep/2018 14:36:31] "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.0" 304 0
+[12/Sep/2018 14:36:32] "GET /static/xadmin/js/xadmin.main.js HTTP/1.0" 304 0
+[12/Sep/2018 14:36:32] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.0" 304 0
+[12/Sep/2018 14:36:32] "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.0" 304 0
+[12/Sep/2018 14:36:32] "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.0" 304 0
+[12/Sep/2018 14:36:32] "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.0" 304 0
+[12/Sep/2018 14:36:32] "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.0" 304 0
+[12/Sep/2018 14:36:32] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.0" 304 0
+[12/Sep/2018 14:36:32] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.0" 304 0
+[12/Sep/2018 14:36:32] "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.0" 304 0
+[12/Sep/2018 14:36:32] "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.0" 304 0
+[12/Sep/2018 14:36:32] "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.0" 304 0
+[12/Sep/2018 14:36:33] "GET /TraverMsg/citymsg/ HTTP/1.0" 200 31951
+[12/Sep/2018 14:36:33] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:36:34] "GET /TraverMsg/travermsg/ HTTP/1.0" 200 34167
+[12/Sep/2018 14:36:34] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:36:34] "GET /TraverMsg/scenicmsg/ HTTP/1.0" 200 31252
+[12/Sep/2018 14:36:34] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:36:35] "GET /TraverMsg/provincemsg/ HTTP/1.0" 200 36525
+[12/Sep/2018 14:36:36] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:36:42] "GET /auth/group/ HTTP/1.0" 200 29097
+[12/Sep/2018 14:36:42] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:36:43] "GET /auth/permission/ HTTP/1.0" 200 94750
+[12/Sep/2018 14:36:43] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:37:35] "GET / HTTP/1.0" 200 82395
+[12/Sep/2018 14:37:35] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:37:35] "GET / HTTP/1.0" 200 82395
+Not Found: /github/400.woff
+[12/Sep/2018 14:37:35] "GET /github/400.woff HTTP/1.0" 404 7198
+Not Found: /github/700.woff
+[12/Sep/2018 14:37:35] "GET /github/700.woff HTTP/1.0" 404 7198
+Not Found: /github/400i.woff
+[12/Sep/2018 14:37:35] "GET /github/400i.woff HTTP/1.0" 404 7201
+[12/Sep/2018 14:37:40] "GET /ProductDT/hotelmsg/ HTTP/1.0" 200 145032
+[12/Sep/2018 14:37:40] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:37:52] "GET /ProductDT/hotelmsg/?p=1 HTTP/1.0" 200 147196
+[12/Sep/2018 14:37:53] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:38:00] "GET /ProductDT/hotelmsg/?p=2 HTTP/1.0" 200 101426
+[12/Sep/2018 14:38:01] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:46:49] "GET /ProductDT/productmsg/ HTTP/1.0" 200 35245
+[12/Sep/2018 14:46:49] "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.0" 304 0
+[12/Sep/2018 14:46:49] "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.0" 304 0
+[12/Sep/2018 14:46:49] "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.0" 304 0
+[12/Sep/2018 14:46:49] "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.0" 304 0
+[12/Sep/2018 14:46:49] "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.0" 304 0
+[12/Sep/2018 14:46:50] "GET /static/xadmin/css/xadmin.form.css HTTP/1.0" 304 0
+[12/Sep/2018 14:46:50] "GET /static/xadmin/css/xadmin.main.css HTTP/1.0" 304 0
+[12/Sep/2018 14:46:50] "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.0" 304 0
+[12/Sep/2018 14:46:50] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.0" 304 0
+[12/Sep/2018 14:46:50] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.0" 304 0
+[12/Sep/2018 14:46:50] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.0" 304 0
+[12/Sep/2018 14:46:50] "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.0" 304 0
+[12/Sep/2018 14:46:50] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:46:50] "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.0" 304 0
+[12/Sep/2018 14:46:50] "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.0" 304 0
+[12/Sep/2018 14:46:50] "GET /static/xadmin/js/xadmin.main.js HTTP/1.0" 304 0
+[12/Sep/2018 14:46:50] "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.0" 304 0
+[12/Sep/2018 14:46:50] "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.0" 304 0
+[12/Sep/2018 14:46:50] "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.0" 304 0
+[12/Sep/2018 14:46:50] "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.0" 304 0
+[12/Sep/2018 14:46:50] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.0" 304 0
+[12/Sep/2018 14:46:54] "GET /ProductDT/ticketsmsg/ HTTP/1.0" 200 152155
+[12/Sep/2018 14:46:54] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:47:04] "GET /ProductDT/hotelmsg/ HTTP/1.0" 200 145032
+[12/Sep/2018 14:47:04] "GET /jsi18n/ HTTP/1.0" 200 7684
+Not Found: /ProductDT/hotelmsg/CN00001_4_Hotel_93/update/
+[12/Sep/2018 14:47:23] "GET /ProductDT/hotelmsg/CN00001_4_Hotel_93/update/ HTTP/1.0" 404 1982
+[12/Sep/2018 14:47:25] "GET /ProductDT/hotelmsg/ HTTP/1.0" 200 145032
+[12/Sep/2018 14:47:25] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:47:33] "GET /ProductDT/strategymsg/ HTTP/1.0" 200 34205
+[12/Sep/2018 14:47:33] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:47:37] "GET /ProductDT/ticketsmsg/ HTTP/1.0" 200 152155
+[12/Sep/2018 14:47:38] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:49:15] "GET /TraverAsk/userask/ HTTP/1.0" 200 36308
+[12/Sep/2018 14:49:16] "GET /static/xadmin/vendor/bootstrap-datepicker/css/datepicker.css HTTP/1.0" 200 10225
+[12/Sep/2018 14:49:16] "GET /static/xadmin/vendor/select2/select2.css HTTP/1.0" 304 0
+[12/Sep/2018 14:49:16] "GET /static/xadmin/vendor/selectize/selectize.bootstrap3.css HTTP/1.0" 304 0
+[12/Sep/2018 14:49:16] "GET /static/xadmin/vendor/selectize/selectize.css HTTP/1.0" 304 0
+[12/Sep/2018 14:49:16] "GET /static/xadmin/js/xadmin.widget.datetime.js HTTP/1.0" 200 2979
+[12/Sep/2018 14:49:16] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:49:16] "GET /static/xadmin/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js HTTP/1.0" 200 32656
+[12/Sep/2018 14:49:16] "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.0" 304 0
+[12/Sep/2018 14:49:16] "GET /static/xadmin/vendor/select2/select2_locale_zh-hans.js HTTP/1.0" 304 0
+[12/Sep/2018 14:49:16] "GET /static/xadmin/vendor/select2/select2.js HTTP/1.0" 304 0
+[12/Sep/2018 14:49:16] "GET /static/xadmin/js/xadmin.widget.select.js HTTP/1.0" 304 0
+[12/Sep/2018 14:49:17] "GET /TraverAsk/useranswer/ HTTP/1.0" 200 34574
+[12/Sep/2018 14:49:17] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:49:19] "GET /TraverAsk/travernote/ HTTP/1.0" 200 37829
+[12/Sep/2018 14:49:19] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:49:31] "GET /ProductDT/supplier/ HTTP/1.0" 200 42925
+[12/Sep/2018 14:49:31] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:49:32] "GET /ProductDT/productmsg/ HTTP/1.0" 200 35245
+[12/Sep/2018 14:49:33] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:49:35] "GET /ProductDT/ticketsmsg/ HTTP/1.0" 200 152155
+[12/Sep/2018 14:49:36] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:49:47] "GET /ProductDT/hotelmsg/ HTTP/1.0" 200 145032
+[12/Sep/2018 14:49:47] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 14:50:05] "GET /ProductDT/strategymsg/ HTTP/1.0" 200 34205
+[12/Sep/2018 14:50:05] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 15:08:45] "GET / HTTP/1.0" 200 82395
+[12/Sep/2018 15:08:45] "GET / HTTP/1.0" 200 82395
+[12/Sep/2018 15:08:46] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 15:08:46] "GET /jsi18n/ HTTP/1.0" 200 7684
+Not Found: /github/400.woff
+[12/Sep/2018 15:08:46] "GET /github/400.woff HTTP/1.0" 404 7198
+Not Found: /github/700.woff
+[12/Sep/2018 15:08:46] "GET /github/700.woff HTTP/1.0" 404 7198
+Not Found: /github/400i.woff
+[12/Sep/2018 15:08:47] "GET /github/400i.woff HTTP/1.0" 404 7201
+Not Found: /favicon.ico
+[12/Sep/2018 15:08:47] "GET /favicon.ico HTTP/1.0" 404 7186
+[12/Sep/2018 15:08:52] "GET /ProductDT/productmsg/ HTTP/1.0" 200 35245
+[12/Sep/2018 15:08:52] "GET /jsi18n/ HTTP/1.0" 200 7684
+[12/Sep/2018 15:29:14] "GET /ProductDT/hotelmsg/ HTTP/1.0" 200 145032
+[12/Sep/2018 15:29:14] "GET /jsi18n/ HTTP/1.0" 200 7684
+Performing system checks...
+
+System check identified no issues (0 silenced).
+September 12, 2018 - 11:16:46
+Django version 2.0.7, using settings 'MarkLearn.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+September 12, 2018 - 15:43:21
+Django version 2.0.7, using settings 'MarkLearn.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.

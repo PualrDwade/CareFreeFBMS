@@ -11,10 +11,10 @@ from .models import StrategyMsg
 class ProductMsgAdmin(object):
     # 显示的列
     list_display = ['id', 'name', 'traver_days', 'start_city',
-                    'product_type', 'scenic_id', 'product_price', 'supplier',
+                    'product_type', 'scenic_name', 'product_price', 'supplier',
                     'product_link', 'score', 'sell_num']
     # 搜索的字段
-    search_fields = ['name', 'product_type']
+    search_fields = ['name','start_city', 'product_type']
     # 过滤
     list_filter = ['id', 'name', 'product_price', 'supplier',
                    'product_link', 'score', 'sell_num']
@@ -31,17 +31,17 @@ class SupplierAdmin(object):
 
 class TicketMsgAdmin(object):
     # 显示的列
-    list_display = ['id', 'scenic_id','city_id','img_url','score', 'ticket_content', 'scense_address', 'ticket_price']
+    list_display = ['id', 'scenic_name','city_id','img_url','score', 'ticket_content', 'scense_address', 'ticket_price']
     # 搜索的字段
-    search_fields = ['scenic_id','id']
+    search_fields = ['scenic_name','id']
     # 过滤
-    list_filter = ['id', 'scenic_id', 'ticket_content', 'ticket_price']
+    list_filter = ['id', 'scenic_name', 'ticket_content', 'ticket_price']
 
 
 class HotelMsgAdmin(object):
     # 显示的列
     list_display = ['id', 'name',  'score', 'hotel_price', 'latest_time','sell_num',
-                    'hotel_content', 'scenic_id', 'img_url', 'supplier_id', 'hotel_link']
+                    'hotel_content', 'scenic_id', 'supplier_id', 'hotel_link']
     # 搜索的字段
     search_fields = ['name','scenic_id']
     # 过滤

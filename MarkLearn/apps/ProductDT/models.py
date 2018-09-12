@@ -46,15 +46,17 @@ class ProductMsg(models.Model):
     id = models.CharField('产品id', max_length=20, primary_key=True)
     name = models.CharField('产品名称', max_length=30)
     traver_days = models.CharField('行程天数', max_length=10)
-    start_city = models.ForeignKey(CityMsg, verbose_name='出发城市', on_delete=models.CASCADE)
     product_price = models.CharField('起价', max_length=10)
     product_type = models.CharField('产品类型', max_length=10, choices=traver_type, default='1')
-    scenic_id = models.ForeignKey(ScenicMsg, verbose_name='景点id', on_delete=models.CASCADE,null=True,blank=True)
+    scenic_name = models.CharField('景点', max_length=20, null=True,blank=True)
+    start_city = models.CharField('出发城市', max_length=30)
+    img_url = models.CharField('图片url', max_length=100)
     supplier = models.ForeignKey(Supplier, verbose_name='供应商', on_delete=models.CASCADE)
     product_link = models.CharField('产品链接', max_length=100)
     score = models.CharField('综合评分', max_length=10,null=True,blank=True)
     sell_num = models.CharField('产品销量', max_length=10,null=True,blank=True)
-
+    comments_num = models.CharField('评论数',max_length=10)
+    product_grade = models.CharField('产品等级',max_length=10)
     class Meta:
         verbose_name = '产品信息'
         verbose_name_plural = verbose_name
@@ -70,7 +72,7 @@ class ProductMsg(models.Model):
 
 class TicketsMsg(models.Model):
     id = models.CharField('门票id', max_length=20, primary_key=True)
-    scenic_id = models.CharField('所属景点',max_length=50,null=True)
+    scenic_name = models.CharField('景点',max_length=50,null=True)
     ticket_content = models.CharField('门票描述', max_length=3000, null=True,blank=True)
     scense_address = models.CharField('场景地址', max_length=100, null=True,blank=True)
     ticket_price = models.CharField('门票价格', max_length=10, null=True,blank=True)

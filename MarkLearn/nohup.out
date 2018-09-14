@@ -7530,3 +7530,123 @@ September 14, 2018 - 14:14:56
 Django version 2.0.7, using settings 'MarkLearn.settings'
 Starting development server at http://127.0.0.1:8000/
 Quit the server with CONTROL-C.
+[14/Sep/2018 14:32:46] "GET / HTTP/1.0" 200 82999
+[14/Sep/2018 14:32:46] "GET /jsi18n/ HTTP/1.0" 200 7684
+Not Found: /github/400.woff
+[14/Sep/2018 14:32:46] "GET /github/400.woff HTTP/1.0" 404 7373
+Not Found: /github/400i.woff
+[14/Sep/2018 14:32:46] "GET /github/400i.woff HTTP/1.0" 404 7376
+Not Found: /github/700.woff
+[14/Sep/2018 14:32:46] "GET /github/700.woff HTTP/1.0" 404 7373
+[14/Sep/2018 14:32:51] "GET /TraverMsg/citymsg/ HTTP/1.0" 200 32385
+[14/Sep/2018 14:32:51] "GET /jsi18n/ HTTP/1.0" 200 7684
+[14/Sep/2018 14:32:52] "GET /TraverMsg/scenicmsg/ HTTP/1.0" 200 32349
+[14/Sep/2018 14:32:53] "GET /jsi18n/ HTTP/1.0" 200 7684
+[14/Sep/2018 14:32:54] "GET /TraverMsg/provincemsg/ HTTP/1.0" 200 31494
+[14/Sep/2018 14:32:54] "GET /jsi18n/ HTTP/1.0" 200 7684
+[14/Sep/2018 14:32:56] "GET /Account/emailverifyrecord/ HTTP/1.0" 200 35521
+[14/Sep/2018 14:32:56] "GET /static/xadmin/vendor/bootstrap-datepicker/css/datepicker.css HTTP/1.0" 304 0
+[14/Sep/2018 14:32:56] "GET /jsi18n/ HTTP/1.0" 200 7684
+[14/Sep/2018 14:32:56] "GET /static/xadmin/js/xadmin.widget.datetime.js HTTP/1.0" 304 0
+[14/Sep/2018 14:32:56] "GET /static/xadmin/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js HTTP/1.0" 304 0
+[14/Sep/2018 14:32:58] "GET /TraverAsk/userask/ HTTP/1.0" 200 36912
+[14/Sep/2018 14:32:58] "GET /jsi18n/ HTTP/1.0" 200 7684
+[14/Sep/2018 14:32:59] "GET /TraverAsk/userask/ HTTP/1.0" 200 36912
+[14/Sep/2018 14:32:59] "GET /jsi18n/ HTTP/1.0" 200 7684
+[14/Sep/2018 14:33:00] "GET /TraverAsk/userask/ HTTP/1.0" 200 36912
+[14/Sep/2018 14:33:00] "GET /jsi18n/ HTTP/1.0" 200 7684
+[14/Sep/2018 14:33:01] "GET /TraverAsk/travernote/ HTTP/1.0" 200 38433
+[14/Sep/2018 14:33:01] "GET /jsi18n/ HTTP/1.0" 200 7684
+[14/Sep/2018 14:33:02] "GET /TraverAsk/useranswer/ HTTP/1.0" 200 35178
+[14/Sep/2018 14:33:02] "GET /jsi18n/ HTTP/1.0" 200 7684
+[14/Sep/2018 14:33:04] "GET /ProductDT/supplier/ HTTP/1.0" 200 45743
+[14/Sep/2018 14:33:04] "GET /jsi18n/ HTTP/1.0" 200 7684
+[14/Sep/2018 14:33:07] "GET /ProductDT/productmsg/ HTTP/1.0" 200 83012
+[14/Sep/2018 14:33:07] "GET /jsi18n/ HTTP/1.0" 200 7684
+[14/Sep/2018 14:33:12] "GET /ProductDT/hotelmsg/ HTTP/1.0" 200 37581
+[14/Sep/2018 14:33:12] "GET /jsi18n/ HTTP/1.0" 200 7684
+[14/Sep/2018 14:33:14] "GET /ProductDT/strategymsg/ HTTP/1.0" 200 53129
+[14/Sep/2018 14:33:14] "GET /jsi18n/ HTTP/1.0" 200 7684
+[14/Sep/2018 14:33:19] "GET /ProductDT/ticketsmsg/ HTTP/1.0" 200 129890
+[14/Sep/2018 14:33:19] "GET /jsi18n/ HTTP/1.0" 200 7684
+Performing system checks...
+
+System check identified no issues (0 silenced).
+September 14, 2018 - 14:32:45
+Django version 2.0.7, using settings 'MarkLearn.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[14/Sep/2018 14:35:52] "GET /TraverMsg/citymsg/ HTTP/1.0" 200 32385
+[14/Sep/2018 14:35:52] "GET /jsi18n/ HTTP/1.0" 200 7684
+[14/Sep/2018 14:35:54] "GET /TraverMsg/citymsg/add/ HTTP/1.0" 200 23348
+[14/Sep/2018 14:35:54] "GET /jsi18n/ HTTP/1.0" 200 7684
+[14/Sep/2018 14:36:05] "POST /TraverMsg/citymsg/add/ HTTP/1.0" 302 0
+[14/Sep/2018 14:36:05] "GET /TraverMsg/citymsg/ HTTP/1.0" 200 37345
+[14/Sep/2018 14:36:05] "GET /jsi18n/ HTTP/1.0" 200 7684
+[14/Sep/2018 14:36:07] "GET /TraverMsg/citymsg/add/ HTTP/1.0" 200 23348
+[14/Sep/2018 14:36:07] "GET /jsi18n/ HTTP/1.0" 200 7684
+[14/Sep/2018 14:36:14] "POST /TraverMsg/citymsg/add/ HTTP/1.0" 200 23716
+[14/Sep/2018 14:36:14] "GET /jsi18n/ HTTP/1.0" 200 7684
+[14/Sep/2018 14:36:22] "GET /TraverMsg/citymsg/ HTTP/1.0" 200 37047
+[14/Sep/2018 14:36:23] "GET /jsi18n/ HTTP/1.0" 200 7684
+[14/Sep/2018 14:36:30] "POST /TraverMsg/citymsg/ HTTP/1.0" 200 20792
+[14/Sep/2018 14:36:30] "GET /jsi18n/ HTTP/1.0" 200 7684
+[14/Sep/2018 14:36:32] "POST /TraverMsg/citymsg/ HTTP/1.0" 302 0
+[14/Sep/2018 14:36:32] "GET /TraverMsg/citymsg/ HTTP/1.0" 200 32614
+[14/Sep/2018 14:36:33] "GET /jsi18n/ HTTP/1.0" 200 7684
+[14/Sep/2018 14:36:40] "GET /ProductDT/productmsg/ HTTP/1.0" 200 83012
+[14/Sep/2018 14:36:40] "GET /jsi18n/ HTTP/1.0" 200 7684
+[14/Sep/2018 14:36:48] "GET /ProductDT/hotelmsg/ HTTP/1.0" 200 37581
+[14/Sep/2018 14:36:48] "GET /jsi18n/ HTTP/1.0" 200 7684
+[14/Sep/2018 14:36:50] "GET /ProductDT/ticketsmsg/ HTTP/1.0" 200 129890
+[14/Sep/2018 14:36:50] "GET /jsi18n/ HTTP/1.0" 200 7684
+[14/Sep/2018 14:37:04] "POST /ProductDT/ticketsmsg/ HTTP/1.0" 200 44220
+[14/Sep/2018 14:37:04] "GET /jsi18n/ HTTP/1.0" 200 7684
+[14/Sep/2018 14:37:07] "POST /ProductDT/ticketsmsg/ HTTP/1.0" 302 0
+[14/Sep/2018 14:37:07] "GET /ProductDT/ticketsmsg/ HTTP/1.0" 200 33872
+[14/Sep/2018 14:37:08] "GET /jsi18n/ HTTP/1.0" 200 7684
+[14/Sep/2018 14:37:09] "GET /ProductDT/hotelmsg/ HTTP/1.0" 200 37581
+[14/Sep/2018 14:37:10] "GET /jsi18n/ HTTP/1.0" 200 7684
+[14/Sep/2018 14:37:11] "GET /ProductDT/strategymsg/ HTTP/1.0" 200 53129
+[14/Sep/2018 14:37:11] "GET /jsi18n/ HTTP/1.0" 200 7684
+[14/Sep/2018 14:37:13] "GET /ProductDT/strategymsg/CN00001_1_Strategy_9/update/ HTTP/1.0" 200 26446
+[14/Sep/2018 14:37:13] "GET /jsi18n/ HTTP/1.0" 200 7684
+[14/Sep/2018 14:37:15] "GET /ProductDT/strategymsg/ HTTP/1.0" 200 53129
+[14/Sep/2018 14:37:28] "POST /ProductDT/strategymsg/ HTTP/1.0" 200 22683
+[14/Sep/2018 14:37:28] "GET /jsi18n/ HTTP/1.0" 200 7684
+[14/Sep/2018 14:37:36] "POST /ProductDT/strategymsg/ HTTP/1.0" 302 0
+[14/Sep/2018 14:37:36] "GET /ProductDT/strategymsg/ HTTP/1.0" 200 35616
+[14/Sep/2018 14:37:37] "GET /jsi18n/ HTTP/1.0" 200 7684
+[14/Sep/2018 14:37:58] "GET /TraverAsk/userask/ HTTP/1.0" 200 36912
+[14/Sep/2018 14:37:58] "GET /jsi18n/ HTTP/1.0" 200 7684
+[14/Sep/2018 14:38:00] "GET /ProductDT/product_city/ HTTP/1.0" 200 213936
+[14/Sep/2018 14:38:01] "GET /jsi18n/ HTTP/1.0" 200 7684
+[14/Sep/2018 14:38:11] "GET /ProductDT/product_city/?p=1 HTTP/1.0" 200 222738
+[14/Sep/2018 14:38:11] "GET /jsi18n/ HTTP/1.0" 200 7684
+[14/Sep/2018 14:38:14] "GET /ProductDT/product_city/?p=0 HTTP/1.0" 200 222650
+[14/Sep/2018 14:38:15] "GET /jsi18n/ HTTP/1.0" 200 7684
+[14/Sep/2018 14:38:25] "POST /ProductDT/product_city/?p=0 HTTP/1.0" 200 281715
+[14/Sep/2018 14:38:25] "GET /jsi18n/ HTTP/1.0" 200 7684
+The number of GET/POST parameters exceeded settings.DATA_UPLOAD_MAX_NUMBER_FIELDS.
+[14/Sep/2018 14:38:30] "POST /ProductDT/product_city/?p=0 HTTP/1.0" 400 94336
+[14/Sep/2018 14:38:34] "GET /ProductDT/product_city/?p=0 HTTP/1.0" 200 222650
+[14/Sep/2018 14:38:49] "POST /ProductDT/product_city/?p=0 HTTP/1.0" 200 29404
+[14/Sep/2018 14:38:49] "GET /jsi18n/ HTTP/1.0" 200 7684
+[14/Sep/2018 14:39:09] "GET /TraverMsg/citymsg/ HTTP/1.0" 200 32385
+[14/Sep/2018 14:39:09] "GET /jsi18n/ HTTP/1.0" 200 7684
+[14/Sep/2018 14:39:11] "GET /TraverMsg/citymsg/add/ HTTP/1.0" 200 23348
+[14/Sep/2018 14:39:11] "GET /jsi18n/ HTTP/1.0" 200 7684
+[14/Sep/2018 14:39:17] "GET /TraverMsg/scenicmsg/ HTTP/1.0" 200 32349
+[14/Sep/2018 14:39:18] "GET /jsi18n/ HTTP/1.0" 200 7684
+[14/Sep/2018 14:39:21] "GET /TraverMsg/scenicmsg/add/ HTTP/1.0" 200 23334
+[14/Sep/2018 14:39:21] "GET /jsi18n/ HTTP/1.0" 200 7684
+[14/Sep/2018 14:39:31] "GET /TraverMsg/citymsg/ HTTP/1.0" 200 32385
+[14/Sep/2018 14:39:31] "GET /jsi18n/ HTTP/1.0" 200 7684
+[14/Sep/2018 14:39:33] "GET /TraverMsg/provincemsg/ HTTP/1.0" 200 31494
+[14/Sep/2018 14:39:33] "GET /jsi18n/ HTTP/1.0" 200 7684
+[14/Sep/2018 14:39:35] "GET /TraverMsg/provincemsg/add/ HTTP/1.0" 200 23031
+[14/Sep/2018 14:39:35] "GET /jsi18n/ HTTP/1.0" 200 7684
+[14/Sep/2018 14:39:40] "GET /ProductDT/hotelmsg/ HTTP/1.0" 200 37581
+[14/Sep/2018 14:39:40] "GET /jsi18n/ HTTP/1.0" 200 7684
+[14/Sep/2018 14:39:42] "GET /ProductDT/hotelmsg/add/ HTTP/1.0" 200 27419
+[14/Sep/2018 14:39:42] "GET /jsi18n/ HTTP/1.0" 200 7684

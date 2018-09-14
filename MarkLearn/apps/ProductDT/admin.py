@@ -51,7 +51,7 @@ class SupplierAdmin(object):
 
 class TicketMsgAdmin(object):
     # 显示的列
-    list_display = ['id', 'scenic_name', 'city_id', 'img_url', 'score', 'ticket_content', 'scense_address',
+    list_display = ['id', 'scenic_name', 'city_id', 'img_url', 'score','ticket_link', 'scense_address',
                     'ticket_price']
     # 搜索的字段
     search_fields = ['scenic_name', 'id']
@@ -62,12 +62,12 @@ class TicketMsgAdmin(object):
 class HotelMsgAdmin(object):
     # 显示的列
     list_display = ['name', 'score', 'hotel_price',  'img_url','hotel_link',
-                    'hotel_content', 'scenic_id', 'supplier_id' ]
+                    'hotel_content', 'scenic_name','city_name', 'supplier_id' ]
     # 搜索的字段
-    search_fields = ['name', 'scenic_id']
+    search_fields = ['name', 'scenic_name','city_name']
     # 过滤
-    list_filter = ['id', 'name', 'score', 'hotel_price',
-                   'scenic_id', 'img_url', 'supplier_id', 'hotel_link']
+    list_filter = ['id', 'name', 'score', 'hotel_price','city_name',
+                   'scenic_name', 'img_url', 'supplier_id', 'hotel_link']
 
 
 class StrategyMsgAdmin(object):

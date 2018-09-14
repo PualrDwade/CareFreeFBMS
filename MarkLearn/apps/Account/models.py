@@ -8,7 +8,13 @@ from django.contrib.auth.models import AbstractUser
 """
 # 1.自定义userProfile
 """
-
+class Signon(models.Model):
+    username = models.CharField('用户名',max_length=50,primary_key=True)
+    password = models.CharField('密码',max_length=50)
+    
+class Meta:
+    verbose_name = '登陆表'
+    verbose_name_plural = verbose_name
 
 class UserProfile(AbstractUser):
     gender_choices = (

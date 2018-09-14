@@ -79,9 +79,7 @@ class TraverMsg(models.Model):
 class ScenicMsg(models.Model):
     id = models.CharField('景点id', max_length=20, primary_key=True)
     name = models.CharField('景点名称', max_length=20)
-    city_id = models.ForeignKey(CityMsg, verbose_name='所属城市', on_delete=models.CASCADE)
-    scenic_content = models.CharField('景点简介', max_length=500)
-    img_url = models.CharField('首页图片url', max_length=100)  # url统一给100
+    city_name = models.CharField('所在城市',max_length=100,null=True,blank=True)
 
     class Meta:
         verbose_name = "景点信息"

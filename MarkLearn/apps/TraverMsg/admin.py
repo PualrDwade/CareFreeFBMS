@@ -28,11 +28,11 @@ class TraverMsgAdmin(object):
 
 class ScenicMsgAdmin(object):
     # 显示的列
-    list_display = ['id', 'name', 'city_id', 'scenic_content', 'img_url']
+    list_display = ['id', 'name', 'city_name']
     # 搜索的字段
-    search_fields = ['name']
+    search_fields = ['name','city_name']
     # 过滤
-    list_filter = ['id', 'name', 'city_id', 'img_url']
+    list_filter = ['id', 'name','city_name']
 
 
 class ProvinceMsgAdmin(object):

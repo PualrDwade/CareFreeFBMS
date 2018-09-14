@@ -18,7 +18,7 @@ class Supplier(models.Model):
         ('2', '广告代理'),
         ('3', '数据提供')
     )
-    id = models.CharField('供应商id', max_length=20, primary_key=True)
+    id = models.CharField('供应商id', max_length=100, primary_key=True)
     name = models.CharField('供应商名称', max_length=30)
     link_url = models.CharField('供应商网站链接', max_length=100)
     cooperation_type = models.CharField('合作类型', max_length=10, choices=type_choices, default='3')
@@ -40,15 +40,10 @@ class Supplier(models.Model):
 # 产品信息分为多个字段
 
 class ProductMsg(models.Model):
-    traver_type = (
-        ('1', '自驾游'),
-        ('2', '跟团游')
-    )
-
-    id = models.CharField('产品id', max_length=20, primary_key=True)
-    name = models.CharField('产品名称', max_length=30)
+    id = models.CharField('产品id', max_length=50, primary_key=True)
+    name = models.CharField('产品名称', max_length=100)
     traver_days = models.CharField('行程天数', max_length=10)
-    product_type = models.CharField('产品类型', max_length=10, choices=traver_type, default='1')
+    product_type = models.CharField('产品类型', max_length=50,null = True,blank = True)
     img_url = models.CharField('图片url', max_length=100)
     supplier = models.ForeignKey(Supplier, verbose_name='供应商', on_delete=models.CASCADE)
     product_link = models.CharField('产品链接', max_length=100)
@@ -66,7 +61,7 @@ class ProductMsg(models.Model):
 
 
 class Product_City(models.Model):
-    product_id = models.ForeignKey(ProductMsg, verbose_name='产品id', on_delete=models.CASCADE)
+    product_id = models.CharField('产品id',max_length=100)
     city_id = models.CharField('供应城市', max_length=100)
     product_price = models.CharField('对应价格',max_length=10)
 
@@ -78,13 +73,12 @@ class Product_City(models.Model):
 
 class Product_Senic(models.Model):
     # 产品相关景点
-    product_id = models.ForeignKey(ProductMsg, verbose_name='产品id', on_delete=models.CASCADE)
-    senic_name = models.CharField('景点', max_length=100)
+    product_id = models.CharField('产品id', max_length=100)
+    senic_name = models.CharField('景点名', max_length=100)
 
     class Meta:
         verbose_name = '产品景点表'
         verbose_name_plural = verbose_name
-
 
 """
 # 3.门票信息
@@ -117,15 +111,16 @@ class TicketsMsg(models.Model):
 
 
 class HotelMsg(models.Model):
-    id = models.CharField('酒店id', max_length=20, primary_key=True)
+    id = models.CharField('酒店id', max_length=100, primary_key=True)
     name = models.CharField('酒店名字', max_length=50)
     score = models.CharField('酒店评分', max_length=10, null=True, blank=True)
     hotel_price = models.CharField('酒店价格', max_length=10)
     hotel_content = models.CharField('酒店简介', max_length=300)
-    scenic_id = models.CharField('所属景点', max_length=100, null=True)
+    scenic_name = models.CharField('酒店位置', max_length=100, null=True)
     img_url = models.CharField('图片url', max_length=100, null=True, blank=True)
     supplier_id = models.ForeignKey(Supplier, verbose_name='供应商', on_delete=models.CASCADE, null=True, blank=True)
     hotel_link = models.CharField('酒店链接', max_length=100)
+    city_name = models.CharField('所在城市',max_length = 100,null=True,blank=True)
     sell_num = models.CharField('酒店人气', max_length=50)
     latest_time = models.CharField('最新情况', max_length=100)
 

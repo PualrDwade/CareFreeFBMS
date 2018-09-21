@@ -2,7 +2,7 @@
 import xadmin
 from .models import EmailVerifyRecord
 from xadmin import views
-
+from .models import Signon
 """
  使用Xadmin的主题功能。
  把全站的配置放在users\admin.py中:
@@ -15,6 +15,12 @@ from xadmin import views
 
 class BaseSetting(object):
     use_bootswatch = True
+
+
+class SignonAdmin(object):
+    list_display = ['username','password']
+    search_fields = ['username']
+    list_filter = ['username']
 
 
 # 全局修改，固定写法
@@ -44,3 +50,5 @@ xadmin.site.register(views.BaseAdminView, BaseSetting)
 
 # 将title和footer信息进行注册
 xadmin.site.register(views.CommAdminView, GlobalSettings)
+
+xadmin.site.register(Signon,SignonAdmin)

@@ -16,7 +16,7 @@ class ProductMsgAdmin(object):
                     'product_type', 'supplier',
                     'product_link', 'score', 'sell_num']
     # 搜索的字段
-    search_fields = ['name', 'product_type']
+    search_fields = ['id','name', 'product_type']
     # 过滤
     list_filter = ['id', 'name', 'supplier',
                    'product_link', 'score', 'sell_num']
@@ -26,7 +26,7 @@ class ProductCityAdmin(object):
     # 显示的列
     list_display = ['product_id', 'city_id', 'product_price']
     # 搜索的字段
-    search_fields = ['city_id']
+    search_fields = ['city_id','product_id']
     # 过滤
     list_filter = ['product_id', 'city_id', 'product_price']
 
@@ -35,7 +35,7 @@ class ProductScenicAdmin(object):
     # 显示的列
     list_display = ['product_id', 'senic_name']
     # 搜索的字段
-    search_fields = ['senic_name']
+    search_fields = ['senic_name','product_id']
     # 过滤
     list_filter = ['product_id', 'senic_name']
 
@@ -51,23 +51,23 @@ class SupplierAdmin(object):
 
 class TicketMsgAdmin(object):
     # 显示的列
-    list_display = ['id', 'scenic_name', 'city_id', 'img_url', 'score','ticket_link', 'scense_address',
+    list_display = ['id', 'scenic_name', 'city_name', 'img_url', 'score','ticket_link', 'scense_address',
                     'ticket_price']
     # 搜索的字段
-    search_fields = ['scenic_name', 'id']
+    search_fields = ['id','scenic_name','city_name']
     # 过滤
-    list_filter = ['id', 'scenic_name', 'ticket_content', 'ticket_price']
+    list_filter = ['id', 'scenic_name','city_name', 'ticket_content', 'ticket_price']
 
 
 class HotelMsgAdmin(object):
     # 显示的列
     list_display = ['name', 'score', 'hotel_price',  'img_url','hotel_link',
-                    'hotel_content', 'scenic_name','city_name', 'supplier_id' ]
+                    'hotel_content', 'city_name', 'supplier_id' ]
     # 搜索的字段
-    search_fields = ['name', 'scenic_name','city_name']
+    search_fields = ['name','hotel_content', 'city_name']
     # 过滤
     list_filter = ['id', 'name', 'score', 'hotel_price','city_name',
-                   'scenic_name', 'img_url', 'supplier_id', 'hotel_link']
+                   'img_url', 'supplier_id', 'hotel_link']
 
 
 class StrategyMsgAdmin(object):

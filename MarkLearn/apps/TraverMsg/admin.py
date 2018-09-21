@@ -17,9 +17,9 @@ class CityMsgAdmin(object):
 
 class ScenicMsgAdmin(object):
     # 显示的列
-    list_display = ['id', 'name', 'city_name','img_url']
+    list_display = ['id', 'name', 'city_name','popular_level','img_url','basic_desc','link_url','address']
     # 搜索的字段
-    search_fields = ['name','city_name','img_url']
+    search_fields = ['name','city_name','img_url','address']
     # 过滤
     list_filter = ['id', 'name','city_name','img_url']
 

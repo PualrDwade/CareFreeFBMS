@@ -44,9 +44,9 @@ class ProductMsg(models.Model):
     name = models.CharField('产品名称', max_length=100)
     traver_days = models.CharField('行程天数', max_length=10)
     product_type = models.CharField('产品类型', max_length=50,null = True,blank = True)
-    img_url = models.CharField('图片url', max_length=100)
+    img_url = models.CharField('图片url', max_length=1000)
     supplier = models.ForeignKey(Supplier, verbose_name='供应商', on_delete=models.CASCADE)
-    product_link = models.CharField('产品链接', max_length=100)
+    product_link = models.CharField('产品链接', max_length=1000)
     score = models.CharField('综合评分', max_length=10, null=True, blank=True)
     sell_num = models.CharField('产品销量', max_length=10, null=True, blank=True)
     comments_num = models.CharField('评论数', max_length=10)
@@ -89,13 +89,13 @@ class TicketsMsg(models.Model):
     id = models.CharField('门票id', max_length=20, primary_key=True)
     scenic_name = models.CharField('景点', max_length=50, null=True)
     ticket_content = models.CharField('门票描述', max_length=3000, null=True, blank=True)
-    scense_address = models.CharField('场景地址', max_length=100, null=True, blank=True)
+    scense_address = models.CharField('场景地址', max_length=1000, null=True, blank=True)
     ticket_price = models.CharField('门票价格', max_length=10, null=True, blank=True)
-    ticket_link = models.CharField('门票链接', max_length=100)
+    ticket_link = models.CharField('门票链接', max_length=1000)
     supplier_id = models.ForeignKey(Supplier, verbose_name='所属供应商', on_delete=models.CASCADE, null=True, blank=True)
     score = models.CharField('评分', max_length=10, null=True, blank=True)
-    img_url = models.CharField('图片地址', max_length=100, null=True, blank=True)
-    city_id = models.CharField('所属城市', max_length=100, null=True, blank=True)
+    img_url = models.CharField('图片地址', max_length=1000, null=True, blank=True)
+    city_name = models.CharField('所属城市', max_length=100, null=True, blank=True)
 
     class Meta:
         verbose_name = '门票信息'
@@ -115,12 +115,11 @@ class HotelMsg(models.Model):
     name = models.CharField('酒店名字', max_length=50)
     score = models.CharField('酒店评分', max_length=10, null=True, blank=True)
     hotel_price = models.CharField('酒店价格', max_length=10)
-    hotel_content = models.CharField('酒店简介', max_length=300)
-    scenic_name = models.CharField('酒店位置', max_length=100, null=True)
-    img_url = models.CharField('图片url', max_length=100, null=True, blank=True)
+    hotel_content = models.CharField('酒店位置', max_length=300)
+    img_url = models.CharField('图片url', max_length=1000, null=True, blank=True)
     supplier_id = models.ForeignKey(Supplier, verbose_name='供应商', on_delete=models.CASCADE, null=True, blank=True)
-    hotel_link = models.CharField('酒店链接', max_length=100)
-    city_name = models.CharField('所在城市',max_length = 100,null=True,blank=True)
+    hotel_link = models.CharField('酒店链接', max_length=1000)
+    city_name = models.CharField('所属城市',max_length = 100,null=True,blank=True)
     sell_num = models.CharField('酒店人气', max_length=50)
     latest_time = models.CharField('最新情况', max_length=100)
 
@@ -140,10 +139,10 @@ class HotelMsg(models.Model):
 class StrategyMsg(models.Model):
     id = models.CharField('攻略id', max_length=20, primary_key=True)
     title = models.CharField('标题', max_length=100)
-    link_url = models.CharField('攻略链接', max_length=100)
+    link_url = models.CharField('攻略链接', max_length=1000)
     simple_content = models.CharField('简介', max_length=1000)
     supplier_id = models.ForeignKey(Supplier, verbose_name='供应商', on_delete=models.CASCADE, null=True, blank=True)
-    img_url = models.CharField('图片链接', max_length=100)
+    img_url = models.CharField('图片链接', max_length=1000)
     scenic_name = models.CharField('相关景点', max_length=100)  # 允许为空
 
     class Meta:

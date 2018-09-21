@@ -9,32 +9,32 @@ from .models import TraverNote
 class UserAskAdmin(object):
     # 显示的列
     list_display = ['id', 'title', 'ask_content', 'star_num', 'user_id',
-                    'add_time', 'scenic_id']
+                    'add_time', 'city_id']
     # 搜索的字段
     search_fields = ['title']
     # 过滤
-    list_filter = ['id', 'title', 'user_id', 'add_time', 'scenic_id']
+    list_filter = ['id', 'title', 'user_id', 'add_time', 'city_id']
 
 
 class UserAnswerAdmin(object):
     # 显示的列
-    list_display = ['id', 'title', 'answer_content', 'ask_id', 'add_time']
+    list_display = ['id', 'answer_content', 'ask_id', 'add_time','user_id']
     # 搜索的字段
-    search_fields = ['title']
+    search_fields = ['id','answer_content']
     # 过滤
-    list_filter = ['id', 'title', 'ask_id', 'add_time']
+    list_filter = ['id', 'ask_id', 'add_time','user_id']
 
 
 class TraverNoteAdmin(object):
     # 显示的列
     list_display = ['id', 'title', 'user_id', 'note_content',
-                    'star_num', 'notify_status', 'add_time', 'img_url', 'scenic_id']
+                    'star_num', 'notify_status', 'add_time', 'img_url', 'city_id']
     # 搜索的字段
     search_fields = ['title',
                      'notify_status']
     # 过滤
     list_filter = ['id', 'title', 'user_id',
-                   'notify_status', 'add_time', 'img_url', 'scenic_id']
+                   'notify_status', 'add_time', 'img_url', 'city_id']
 
 
 # 使用xadmin进行注册
